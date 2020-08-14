@@ -1,0 +1,11 @@
+{
+  "shop/dairy|Veronika": {
+    "locationSet": {"include": ["hr"]},
+    "tags": {
+      "brand": "Veronika",
+      "brand:wikidata": "Q87399724",
+      "name": "Veronika",
+      "shop": "dairy"
+    }
+  }
+}

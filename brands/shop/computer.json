@@ -1,6 +1,6 @@
 {
   "shop/computer|DNS": {
-    "countryCodes": ["ru", "ua"],
+    "locationSet": {"include": ["ru", "ua"]},
     "tags": {
       "alt_name": "ДНС",
       "brand": "DNS",
@@ -14,8 +14,18 @@
       "shop": "computer"
     }
   },
+  "shop/computer|LDLC": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "LDLC",
+      "brand:wikidata": "Q3117461",
+      "brand:wikipedia": "fr:Groupe LDLC",
+      "name": "LDLC",
+      "shop": "computer"
+    }
+  },
   "shop/computer|PCデポ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["pc depot", "ピーシーデポ"],
     "tags": {
       "brand": "PCデポ",
@@ -30,7 +40,7 @@
     }
   },
   "shop/computer|じゃんぱら": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "brand": "じゃんぱら",
       "brand:en": "Janpara",
@@ -40,6 +50,48 @@
       "name": "じゃんぱら",
       "name:en": "Janpara",
       "name:ja": "じゃんぱら",
+      "shop": "computer"
+    }
+  },
+  "shop/computer|アプライド": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "アプライド",
+      "brand:en": "Applied",
+      "brand:ja": "アプライド",
+      "brand:wikidata": "Q11284742",
+      "brand:wikipedia": "ja:アプライド",
+      "name": "アプライド",
+      "name:en": "Applied",
+      "name:ja": "アプライド",
+      "shop": "computer"
+    }
+  },
+  "shop/computer|イオシス": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "イオシス",
+      "brand:en": "IOSYS",
+      "brand:ja": "イオシス",
+      "brand:wikidata": "Q17988651",
+      "brand:wikipedia": "ja:イオシス (株式会社)",
+      "name": "イオシス",
+      "name:en": "IOSYS",
+      "name:ja": "イオシス",
+      "shop": "computer"
+    }
+  },
+  "shop/computer|ツクモ": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "ツクモ",
+      "brand:en": "TSUKUMO",
+      "brand:ja": "ツクモ",
+      "brand:wikidata": "Q29793996",
+      "brand:wikipedia": "ja:九十九電機",
+      "name": "ツクモ",
+      "name:en": "TSUKUMO",
+      "name:ja": "ツクモ",
       "shop": "computer"
     }
   }

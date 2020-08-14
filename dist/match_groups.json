@@ -1,5 +1,10 @@
 {
   "matchGroups": {
+    "adult_gaming_centre": [
+      "amenity/casino",
+      "amenity/gambling",
+      "leisure/adult_gaming_centre"
+    ],
     "beauty": [
       "shop/beauty",
       "shop/hairdresser_supply"
@@ -32,7 +37,8 @@
       "shop/beauty",
       "shop/chemist",
       "shop/convenience",
-      "shop/cosmetics"
+      "shop/cosmetics",
+      "shop/newsagent"
     ],
     "coworking": [
       "amenity/coworking_space",
@@ -131,6 +137,11 @@
       "shop/outdoor",
       "shop/sports"
     ],
+    "playground": [
+      "amenity/theme_park",
+      "leisure/amusement_arcade",
+      "leisure/playground"
+    ],
     "rental": [
       "amenity/bicycle_rental",
       "amenity/boat_rental",
@@ -158,7 +169,6 @@
     ],
     "variety_store": [
       "shop/variety_store",
-      "shop/supermarket",
       "shop/discount",
       "shop/convenience"
     ],

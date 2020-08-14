@@ -1,6 +1,6 @@
 {
   "amenity/fast_food|241 Pizza": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "241 Pizza",
@@ -12,7 +12,7 @@
     }
   },
   "amenity/fast_food|A&W~(Canada)": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "nomatch": ["amenity/fast_food|A&W~(USA)"],
     "tags": {
       "amenity": "fast_food",
@@ -25,7 +25,7 @@
     }
   },
   "amenity/fast_food|A&W~(USA)": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "nomatch": ["amenity/fast_food|A&W~(Canada)"],
     "tags": {
       "amenity": "fast_food",
@@ -38,7 +38,7 @@
     }
   },
   "amenity/fast_food|Andok's": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Andok's",
@@ -49,7 +49,7 @@
     }
   },
   "amenity/fast_food|Angel's Burger": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Angel's Burger",
@@ -60,7 +60,9 @@
     }
   },
   "amenity/fast_food|Arby's": {
-    "countryCodes": ["ca", "tr", "us"],
+    "locationSet": {
+      "include": ["ca", "tr", "us"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Arby's",
@@ -72,7 +74,7 @@
     }
   },
   "amenity/fast_food|Arctic Circle": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Arctic Circle",
@@ -83,16 +85,10 @@
       "takeaway": "yes"
     }
   },
-  "amenity/fast_food|Asia-Imbiss": {
-    "tags": {
-      "amenity": "fast_food",
-      "brand": "Asia-Imbiss",
-      "name": "Asia-Imbiss",
-      "takeaway": "yes"
-    }
-  },
   "amenity/fast_food|Au Bon Pain": {
-    "countryCodes": ["in", "th", "us"],
+    "locationSet": {
+      "include": ["in", "th", "us"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Au Bon Pain",
@@ -104,7 +100,7 @@
     }
   },
   "amenity/fast_food|Auntie Anne's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["auntie annes pretzels"],
     "tags": {
       "amenity": "fast_food",
@@ -117,7 +113,7 @@
     }
   },
   "amenity/fast_food|Back Yard Burgers": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Back Yard Burgers",
@@ -129,7 +125,7 @@
     }
   },
   "amenity/fast_food|Baja Fresh": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Baja Fresh",
@@ -141,7 +137,7 @@
     }
   },
   "amenity/fast_food|Barburrito": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Barburrito",
@@ -153,7 +149,7 @@
     }
   },
   "amenity/fast_food|Bembos": {
-    "countryCodes": ["pe"],
+    "locationSet": {"include": ["pe"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Bembos",
@@ -165,7 +161,9 @@
     }
   },
   "amenity/fast_food|Big Fernand": {
-    "countryCodes": ["ae", "fr", "lu"],
+    "locationSet": {
+      "include": ["ae", "fr", "lu"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Big Fernand",
@@ -177,7 +175,7 @@
     }
   },
   "amenity/fast_food|Biscuitville": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Biscuitville",
@@ -189,7 +187,7 @@
     }
   },
   "amenity/fast_food|Blackjack Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Blackjack Pizza",
@@ -201,7 +199,7 @@
     }
   },
   "amenity/fast_food|Blimpie": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Blimpie",
@@ -213,7 +211,9 @@
     }
   },
   "amenity/fast_food|Bob's": {
-    "countryCodes": ["ao", "br", "cl", "pt"],
+    "locationSet": {
+      "include": ["ao", "br", "cl", "pt"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Bob's",
@@ -225,7 +225,7 @@
     }
   },
   "amenity/fast_food|Bojangles'": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Bojangles'",
@@ -238,7 +238,7 @@
     }
   },
   "amenity/fast_food|Booster Juice": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "matchTags": ["shop/beverages"],
     "tags": {
       "amenity": "fast_food",
@@ -251,7 +251,7 @@
     }
   },
   "amenity/fast_food|Boston Market": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Boston Market",
@@ -263,7 +263,7 @@
     }
   },
   "amenity/fast_food|Braum's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchTags": ["shop/dairy"],
     "tags": {
       "amenity": "fast_food",
@@ -277,7 +277,7 @@
     }
   },
   "amenity/fast_food|Bruegger's Bagels": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "breuger's",
       "breugger's",
@@ -295,14 +295,22 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Buona": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Buona",
+      "brand:wikidata": "Q23461372",
+      "brand:wikipedia": "en:Buona",
+      "cuisine": "italian",
+      "name": "Buona",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Burger Fuel": {
-    "countryCodes": [
-      "ae",
-      "iq",
-      "nz",
-      "sa",
-      "us"
-    ],
+    "locationSet": {
+      "include": ["ae", "iq", "nz", "sa", "us"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Burger Fuel",
@@ -314,6 +322,7 @@
     }
   },
   "amenity/fast_food|Burger King": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["burguer king"],
     "tags": {
       "amenity": "fast_food",
@@ -326,7 +335,7 @@
     }
   },
   "amenity/fast_food|Burger Machine": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Burger Machine",
@@ -338,7 +347,7 @@
     }
   },
   "amenity/fast_food|BurgerFi": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "BurgerFi",
@@ -350,7 +359,7 @@
     }
   },
   "amenity/fast_food|Burgerim": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Burgerim",
@@ -365,7 +374,7 @@
     }
   },
   "amenity/fast_food|Burgers Bar": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Burgers Bar",
@@ -381,7 +390,7 @@
     }
   },
   "amenity/fast_food|Burgerville": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Burgerville",
@@ -393,7 +402,7 @@
     }
   },
   "amenity/fast_food|California Fish Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "California Fish Grill",
@@ -405,7 +414,7 @@
     }
   },
   "amenity/fast_food|Captain D's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Captain D's",
@@ -417,6 +426,7 @@
     }
   },
   "amenity/fast_food|Carl's Jr.": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Carl's Jr.",
@@ -428,7 +438,7 @@
     }
   },
   "amenity/fast_food|Charleys Philly Steaks": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["charleys"],
     "tags": {
       "amenity": "fast_food",
@@ -441,6 +451,7 @@
     }
   },
   "amenity/fast_food|Checkers": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/supermarket|Checkers"],
     "tags": {
       "amenity": "fast_food",
@@ -452,7 +463,7 @@
     }
   },
   "amenity/fast_food|Chester's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["chesters chicken"],
     "tags": {
       "amenity": "fast_food",
@@ -465,7 +476,7 @@
     }
   },
   "amenity/fast_food|Chick-fil-A": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Chick-fil-A",
@@ -477,7 +488,7 @@
     }
   },
   "amenity/fast_food|Chicken Express": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Chicken Express",
@@ -489,7 +500,7 @@
     }
   },
   "amenity/fast_food|Chicken Treat": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Chicken Treat",
@@ -500,7 +511,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|China Garden": {
+    "locationSet": {"include": ["gb", "us"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "China Garden",
+      "cuisine": "chinese",
+      "name": "China Garden",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|China Wok": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "China Wok",
@@ -512,6 +534,7 @@
     }
   },
   "amenity/fast_food|Chipotle": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Chipotle",
@@ -524,7 +547,7 @@
     }
   },
   "amenity/fast_food|Chopt": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Chopt",
@@ -536,7 +559,7 @@
     }
   },
   "amenity/fast_food|Chowking": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Chowking",
@@ -548,6 +571,7 @@
     }
   },
   "amenity/fast_food|Church's Chicken": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Church's Chicken",
@@ -559,6 +583,7 @@
     }
   },
   "amenity/fast_food|Cinnabon": {
+    "locationSet": {"include": ["001"]},
     "matchTags": ["shop/confectionery"],
     "tags": {
       "amenity": "fast_food",
@@ -571,7 +596,7 @@
     }
   },
   "amenity/fast_food|CoCo壱番屋": {
-    "countryCodes": ["cn", "jp"],
+    "locationSet": {"include": ["cn", "jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "CoCo壱番屋",
@@ -587,7 +612,7 @@
     }
   },
   "amenity/fast_food|Cook Out": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Cook Out",
@@ -599,7 +624,7 @@
     }
   },
   "amenity/fast_food|Così": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Così",
@@ -611,7 +636,7 @@
     }
   },
   "amenity/fast_food|Crust": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Crust",
@@ -622,7 +647,7 @@
     }
   },
   "amenity/fast_food|Cultures": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Cultures",
@@ -633,7 +658,7 @@
     }
   },
   "amenity/fast_food|Culver's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Culver's",
@@ -644,8 +669,23 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Cœur de Blé": {
+    "locationSet": {"include": ["fr"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Cœur de Blé",
+      "brand:en": "Coeur de Blé",
+      "brand:fr": "Cœur de Blé",
+      "brand:wikidata": "Q95745666",
+      "cuisine": "sandwich",
+      "name": "Cœur de Blé",
+      "name:en": "Coeur de Blé",
+      "name:fr": "Cœur de Blé",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|DQ Grill & Chill": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "matchNames": ["dairy queen chill & grill"],
     "nomatch": ["amenity/fast_food|Dairy Queen"],
     "tags": {
@@ -659,6 +699,7 @@
     }
   },
   "amenity/fast_food|Dairy Queen": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["dq"],
     "nomatch": [
       "amenity/fast_food|DQ Grill & Chill"
@@ -674,7 +715,7 @@
     }
   },
   "amenity/fast_food|Daylight Donuts": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Daylight Donuts",
@@ -686,22 +727,24 @@
     }
   },
   "amenity/fast_food|Debonairs Pizza": {
-    "countryCodes": [
-      "ae",
-      "bw",
-      "ke",
-      "ls",
-      "mu",
-      "mw",
-      "mz",
-      "na",
-      "ng",
-      "sd",
-      "ss",
-      "sz",
-      "za",
-      "zm"
-    ],
+    "locationSet": {
+      "include": [
+        "ae",
+        "bw",
+        "ke",
+        "ls",
+        "mu",
+        "mw",
+        "mz",
+        "na",
+        "ng",
+        "sd",
+        "ss",
+        "sz",
+        "za",
+        "zm"
+      ]
+    },
     "matchNames": ["debonairs"],
     "tags": {
       "amenity": "fast_food",
@@ -714,7 +757,7 @@
     }
   },
   "amenity/fast_food|Del Taco": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Del Taco",
@@ -726,7 +769,7 @@
     }
   },
   "amenity/fast_food|Dig Inn": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Dig Inn",
@@ -737,7 +780,33 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Dixy Chicken": {
+    "locationSet": {
+      "include": [
+        "bn",
+        "gb",
+        "in",
+        "no",
+        "nz",
+        "pk",
+        "sa",
+        "sy",
+        "us"
+      ]
+    },
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Dixy Chicken",
+      "brand:wikidata": "Q5285003",
+      "brand:wikipedia": "en:Dixy Chicken",
+      "cuisine": "chicken",
+      "diet:halal": "yes",
+      "name": "Dixy Chicken",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Domino's": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["dominos pizza"],
     "tags": {
       "amenity": "fast_food",
@@ -750,7 +819,7 @@
     }
   },
   "amenity/fast_food|Donut King": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Donut King",
@@ -762,6 +831,7 @@
     }
   },
   "amenity/fast_food|Dunkin' Donuts": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["dunkin doughnuts"],
     "tags": {
       "amenity": "fast_food",
@@ -774,7 +844,7 @@
     }
   },
   "amenity/fast_food|EAT.": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "EAT.",
@@ -785,8 +855,20 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|East of Chicago Pizza": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "East of Chicago Pizza",
+      "brand:wikidata": "Q5329751",
+      "brand:wikipedia": "en:East of Chicago Pizza",
+      "cuisine": "pizza",
+      "name": "East of Chicago Pizza",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Einstein Bros. Bagels": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "einstein bros",
       "einstein brothers"
@@ -803,7 +885,7 @@
     }
   },
   "amenity/fast_food|El Pollo Loco": {
-    "countryCodes": ["mx", "us"],
+    "locationSet": {"include": ["mx", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "El Pollo Loco",
@@ -815,7 +897,9 @@
     }
   },
   "amenity/fast_food|Elevation Burger": {
-    "countryCodes": ["bh", "kw", "qa", "us"],
+    "locationSet": {
+      "include": ["bh", "kw", "qa", "us"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Elevation Burger",
@@ -827,6 +911,7 @@
     }
   },
   "amenity/fast_food|Es Teler 77": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Es Teler 77",
@@ -837,7 +922,7 @@
     }
   },
   "amenity/fast_food|Everest": {
-    "countryCodes": ["gr"],
+    "locationSet": {"include": ["gr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Everest",
@@ -848,7 +933,7 @@
     }
   },
   "amenity/fast_food|Extreme Pita": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Extreme Pita",
@@ -860,6 +945,7 @@
     }
   },
   "amenity/fast_food|Extreme Pizza": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Extreme Pizza",
@@ -871,7 +957,7 @@
     }
   },
   "amenity/fast_food|Fazoli's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Fazoli's",
@@ -882,7 +968,20 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Febo": {
+    "locationSet": {"include": ["nl"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Febo",
+      "brand:wikidata": "Q582245",
+      "brand:wikipedia": "nl:Febo (snackbar)",
+      "cuisine": "burger",
+      "name": "Febo",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Figaro's Pizza": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Figaro's Pizza",
@@ -894,7 +993,7 @@
     }
   },
   "amenity/fast_food|Firehouse Subs": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Firehouse Subs",
@@ -906,6 +1005,7 @@
     }
   },
   "amenity/fast_food|Five Guys": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Five Guys",
@@ -918,7 +1018,7 @@
     }
   },
   "amenity/fast_food|Freddy's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Freddy's",
@@ -931,7 +1031,7 @@
     }
   },
   "amenity/fast_food|Freebirds": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Freebirds",
@@ -943,7 +1043,7 @@
     }
   },
   "amenity/fast_food|Freshslice Pizza": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Freshslice Pizza",
@@ -954,8 +1054,43 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Freshëns": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Freshëns",
+      "brand:wikidata": "Q88353412",
+      "cuisine": "juice;salad",
+      "name": "Freshëns",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Frisby": {
+    "locationSet": {"include": ["co"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Frisby",
+      "brand:wikidata": "Q7225732",
+      "brand:wikipedia": "en:Frisby (restaurant)",
+      "cuisine": "chicken",
+      "delivery": "yes",
+      "name": "Frisby",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Froots": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Froots",
+      "brand:wikidata": "Q96203860",
+      "cuisine": "juice;salad",
+      "name": "Froots",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Gabriel Pizza": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Gabriel Pizza",
@@ -966,20 +1101,31 @@
       "takeaway": "yes"
     }
   },
-  "amenity/fast_food|Gino's Pizza": {
-    "countryCodes": ["us"],
+  "amenity/fast_food|Gino's Pizza & Spaghetti House~(West Virginia)": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Gino's Pizza & Spaghetti House",
+      "brand:wikidata": "Q5563205",
+      "brand:wikipedia": "en:Gino's Pizza and Spaghetti",
+      "cuisine": "pizza",
+      "name": "Gino's Pizza & Spaghetti House",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|Gino's Pizza~(Canada)": {
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Gino's Pizza",
-      "brand:wikidata": "Q5563205",
-      "brand:wikipedia": "en:Gino's Pizza and Spaghetti",
+      "brand:wikidata": "Q84029134",
       "cuisine": "pizza",
       "name": "Gino's Pizza",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|Gold Star Chili": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "alt_name": "Gold Star",
       "amenity": "fast_food",
@@ -992,7 +1138,7 @@
     }
   },
   "amenity/fast_food|Golden Chick": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Golden Chick",
@@ -1004,7 +1150,7 @@
     }
   },
   "amenity/fast_food|Golden Krust Caribbean Bakery & Grill": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Golden Krust Caribbean Bakery & Grill",
@@ -1016,11 +1162,11 @@
     }
   },
   "amenity/fast_food|Good Times": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Good Times",
-      "brand:wikidata": "Q1143589",
+      "brand:wikidata": "Q5583024",
       "brand:wikipedia": "en:Good Times Burgers & Frozen Custard",
       "cuisine": "burger;ice_cream",
       "name": "Good Times",
@@ -1029,7 +1175,7 @@
     }
   },
   "amenity/fast_food|Great American Cookies": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Great American Cookies",
@@ -1041,7 +1187,7 @@
     }
   },
   "amenity/fast_food|Greenwich": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Greenwich",
@@ -1053,7 +1199,7 @@
     }
   },
   "amenity/fast_food|Greggs": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Greggs",
@@ -1065,7 +1211,7 @@
     }
   },
   "amenity/fast_food|Grill'd": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Grill'd",
@@ -1077,7 +1223,7 @@
     }
   },
   "amenity/fast_food|Habib's": {
-    "countryCodes": ["br", "mx"],
+    "locationSet": {"include": ["br", "mx"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Habib's",
@@ -1089,7 +1235,7 @@
     }
   },
   "amenity/fast_food|Hallo Pizza": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Hallo Pizza",
@@ -1101,6 +1247,7 @@
     }
   },
   "amenity/fast_food|Hardee's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Hardee's",
@@ -1112,7 +1259,7 @@
     }
   },
   "amenity/fast_food|Harry Ramsden's": {
-    "countryCodes": ["gb", "ie"],
+    "locationSet": {"include": ["gb", "ie"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Harry Ramsden's",
@@ -1124,7 +1271,7 @@
     }
   },
   "amenity/fast_food|Harvey's": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "nomatch": ["shop/furniture|Harveys"],
     "tags": {
       "amenity": "fast_food",
@@ -1137,13 +1284,9 @@
     }
   },
   "amenity/fast_food|Herfy": {
-    "countryCodes": [
-      "ae",
-      "bd",
-      "bh",
-      "kw",
-      "sa"
-    ],
+    "locationSet": {
+      "include": ["ae", "bd", "bh", "kw", "sa"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Herfy",
@@ -1159,7 +1302,7 @@
     }
   },
   "amenity/fast_food|Hero Certified Burgers": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Hero Certified Burgers",
@@ -1171,6 +1314,7 @@
     }
   },
   "amenity/fast_food|Hesburger": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Hesburger",
@@ -1182,7 +1326,7 @@
     }
   },
   "amenity/fast_food|Honey Baked Ham": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["honey baked ham company"],
     "matchTags": ["shop/butcher", "shop/deli"],
     "tags": {
@@ -1198,7 +1342,7 @@
     }
   },
   "amenity/fast_food|Hot Dog on a Stick": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Hot Dog on a Stick",
@@ -1210,7 +1354,7 @@
     }
   },
   "amenity/fast_food|Hot Head Burritos": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Hot Head Burritos",
@@ -1223,7 +1367,7 @@
     }
   },
   "amenity/fast_food|HuHot": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "HuHot",
@@ -1236,7 +1380,7 @@
     }
   },
   "amenity/fast_food|Hungry Howie's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["hungry howies pizza"],
     "tags": {
       "amenity": "fast_food",
@@ -1249,7 +1393,7 @@
     }
   },
   "amenity/fast_food|Hungry Jacks": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Hungry Jacks",
@@ -1260,7 +1404,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Hungry Lion": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Hungry Lion",
+      "cuisine": "chicken",
+      "name": "Hungry Lion",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|IKEA Restaurant": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "IKEA",
@@ -1272,7 +1427,7 @@
     }
   },
   "amenity/fast_food|Imo's Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Imo's Pizza",
@@ -1284,7 +1439,7 @@
     }
   },
   "amenity/fast_food|In-N-Out Burger": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "In-N-Out Burger",
@@ -1296,7 +1451,7 @@
     }
   },
   "amenity/fast_food|Jack in the Box": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Jack in the Box",
@@ -1307,8 +1462,21 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Jack's": {
+    "locationSet": {"include": ["us"]},
+    "nomatch": ["shop/supermarket|Jack's"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Jack's",
+      "brand:wikidata": "Q6110826",
+      "brand:wikipedia": "en:Jack's",
+      "cuisine": "burger",
+      "name": "Jack's",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Jamba Juice": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Jamba Juice",
@@ -1320,7 +1488,7 @@
     }
   },
   "amenity/fast_food|Jersey Mike's Subs": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Jersey Mike's Subs",
@@ -1333,7 +1501,7 @@
     }
   },
   "amenity/fast_food|Jimmy John's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Jimmy John's",
@@ -1346,7 +1514,7 @@
     }
   },
   "amenity/fast_food|Jimmy the Greek": {
-    "countryCodes": ["ae", "ca"],
+    "locationSet": {"include": ["ae", "ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Jimmy the Greek",
@@ -1358,6 +1526,7 @@
     }
   },
   "amenity/fast_food|Jollibee": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Jollibee",
@@ -1369,7 +1538,7 @@
     }
   },
   "amenity/fast_food|Just Salad": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Just Salad",
@@ -1381,6 +1550,7 @@
     }
   },
   "amenity/fast_food|KFC": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "alt_name": "Kentucky Fried Chicken",
       "amenity": "fast_food",
@@ -1393,7 +1563,7 @@
     }
   },
   "amenity/fast_food|Kernels Popcorn": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Kernels Popcorn",
@@ -1404,7 +1574,7 @@
     }
   },
   "amenity/fast_food|Kochlöffel": {
-    "countryCodes": ["de", "tr"],
+    "locationSet": {"include": ["de", "tr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Kochlöffel",
@@ -1416,7 +1586,7 @@
     }
   },
   "amenity/fast_food|Kotipizza": {
-    "countryCodes": ["fi"],
+    "locationSet": {"include": ["fi"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Kotipizza",
@@ -1428,6 +1598,7 @@
     }
   },
   "amenity/fast_food|Krispy Kreme": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["krispy kreme doughnuts"],
     "tags": {
       "amenity": "fast_food",
@@ -1440,7 +1611,7 @@
     }
   },
   "amenity/fast_food|Krispy Krunchy Chicken": {
-    "countryCodes": ["mx", "us"],
+    "locationSet": {"include": ["mx", "us"]},
     "matchNames": ["crispy crunchy chicken"],
     "tags": {
       "amenity": "fast_food",
@@ -1453,7 +1624,7 @@
     }
   },
   "amenity/fast_food|Krystal": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Krystal",
@@ -1465,7 +1636,9 @@
     }
   },
   "amenity/fast_food|Kudu": {
-    "countryCodes": ["bh", "jo", "sa"],
+    "locationSet": {
+      "include": ["bh", "jo", "sa"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Kudu",
@@ -1477,7 +1650,7 @@
     }
   },
   "amenity/fast_food|L&L Drive-Inn~(Hawaii)": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["l&l", "l&l drive-in"],
     "tags": {
       "amenity": "fast_food",
@@ -1490,7 +1663,7 @@
     }
   },
   "amenity/fast_food|L&L Hawaiian Barbecue": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["l&l", "l&l hawaiian bbq"],
     "tags": {
       "amenity": "fast_food",
@@ -1503,24 +1676,21 @@
     }
   },
   "amenity/fast_food|LEON": {
-    "countryCodes": [
-      "ch",
-      "gb",
-      "ie",
-      "nl",
-      "us"
-    ],
+    "locationSet": {
+      "include": ["ch", "gb", "ie", "nl", "us"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "LEON",
       "brand:wikidata": "Q6524851",
       "brand:wikipedia": "en:Leon Restaurants",
+      "cuisine": "burger;sandwich",
       "name": "LEON",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|La Belle Province": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "La Belle Province",
@@ -1532,7 +1702,7 @@
     }
   },
   "amenity/fast_food|La Salsa": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "La Salsa",
@@ -1544,7 +1714,7 @@
     }
   },
   "amenity/fast_food|Lee's Famous Recipe Chicken": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "matchNames": ["lee's"],
     "tags": {
       "amenity": "fast_food",
@@ -1557,7 +1727,7 @@
     }
   },
   "amenity/fast_food|Lee's Sandwiches": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Lee's Sandwiches",
@@ -1569,6 +1739,7 @@
     }
   },
   "amenity/fast_food|Little Caesars": {
+    "locationSet": {"include": ["001"]},
     "matchNames": [
       "little caesars pizza",
       "little ceasars",
@@ -1585,6 +1756,7 @@
     }
   },
   "amenity/fast_food|Long John Silver's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Long John Silver's",
@@ -1596,6 +1768,7 @@
     }
   },
   "amenity/fast_food|Lotteria": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Lotteria",
@@ -1607,7 +1780,7 @@
     }
   },
   "amenity/fast_food|MOD Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "MOD Pizza",
@@ -1619,7 +1792,7 @@
     }
   },
   "amenity/fast_food|Manchu Wok": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Manchu Wok",
@@ -1631,7 +1804,7 @@
     }
   },
   "amenity/fast_food|Mang Inasal": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Mang Inasal",
@@ -1643,7 +1816,7 @@
     }
   },
   "amenity/fast_food|Manhattan Bagel": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["manhattan bagels"],
     "tags": {
       "amenity": "fast_food",
@@ -1654,8 +1827,21 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Marrybrown": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Marrybrown",
+      "brand:wikidata": "Q3380773",
+      "brand:wikipedia": "en:Marrybrown",
+      "cuisine": "malaysian;chicken;burger",
+      "diet:halal": "yes",
+      "name": "Marrybrown",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Mary Brown's": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Mary Brown's",
@@ -1667,7 +1853,7 @@
     }
   },
   "amenity/fast_food|Max": {
-    "countryCodes": ["se"],
+    "locationSet": {"include": ["se"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Max",
@@ -1679,6 +1865,7 @@
     }
   },
   "amenity/fast_food|McDonald's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "McDonald's",
@@ -1690,7 +1877,7 @@
     }
   },
   "amenity/fast_food|Meson Sandwiches": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["el meson"],
     "tags": {
       "alt_name": "El Meson Sandwiches",
@@ -1705,7 +1892,7 @@
     }
   },
   "amenity/fast_food|Mighty Taco": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Mighty Taco",
@@ -1717,7 +1904,7 @@
     }
   },
   "amenity/fast_food|Minute Burger": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Minute Burger",
@@ -1728,7 +1915,7 @@
     }
   },
   "amenity/fast_food|Moe's Southwest Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Moe's Southwest Grill",
@@ -1741,7 +1928,7 @@
     }
   },
   "amenity/fast_food|Morley's": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Morley's",
@@ -1753,6 +1940,7 @@
     }
   },
   "amenity/fast_food|Mr. Sub": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Mr. Sub",
@@ -1764,7 +1952,9 @@
     }
   },
   "amenity/fast_food|Mucho Burrito": {
-    "countryCodes": ["ca", "gb", "us"],
+    "locationSet": {
+      "include": ["ca", "gb", "us"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Mucho Burrito",
@@ -1775,7 +1965,7 @@
     }
   },
   "amenity/fast_food|Nathan's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["nathans famous"],
     "tags": {
       "amenity": "fast_food",
@@ -1788,7 +1978,7 @@
     }
   },
   "amenity/fast_food|Nestlé Toll House Café": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Nestlé Toll House Café",
@@ -1800,7 +1990,7 @@
     }
   },
   "amenity/fast_food|New York Fries": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "New York Fries",
@@ -1812,7 +2002,7 @@
     }
   },
   "amenity/fast_food|New York Pizza": {
-    "countryCodes": ["nl"],
+    "locationSet": {"include": ["nl"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "New York Pizza",
@@ -1824,7 +2014,7 @@
     }
   },
   "amenity/fast_food|Noah's Bagels": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["noahs ny bagels"],
     "tags": {
       "amenity": "fast_food",
@@ -1837,7 +2027,7 @@
     }
   },
   "amenity/fast_food|Noodle Box": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Noodle Box",
@@ -1849,7 +2039,9 @@
     }
   },
   "amenity/fast_food|Nordsee": {
-    "countryCodes": ["at", "ch", "de"],
+    "locationSet": {
+      "include": ["at", "ch", "de"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Nordsee",
@@ -1861,7 +2053,7 @@
     }
   },
   "amenity/fast_food|Num Pang": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Num Pang",
@@ -1873,7 +2065,7 @@
     }
   },
   "amenity/fast_food|O'Tacos": {
-    "countryCodes": ["be", "fr"],
+    "locationSet": {"include": ["be", "fr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "O'Tacos",
@@ -1885,7 +2077,7 @@
     }
   },
   "amenity/fast_food|Oporto": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Oporto",
@@ -1897,7 +2089,7 @@
     }
   },
   "amenity/fast_food|Orange Julius": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Orange Julius",
@@ -1909,7 +2101,7 @@
     }
   },
   "amenity/fast_food|P. Terry's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "P. Terry's",
@@ -1922,7 +2114,7 @@
     }
   },
   "amenity/fast_food|Pal's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pal's",
@@ -1935,7 +2127,7 @@
     }
   },
   "amenity/fast_food|Panago": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Panago",
@@ -1947,6 +2139,7 @@
     }
   },
   "amenity/fast_food|Panda Express": {
+    "locationSet": {"include": ["us"]},
     "matchNames": ["panda"],
     "tags": {
       "amenity": "fast_food",
@@ -1959,7 +2152,7 @@
     }
   },
   "amenity/fast_food|Panera Bread": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Panera Bread",
@@ -1972,15 +2165,17 @@
     }
   },
   "amenity/fast_food|Panos": {
-    "countryCodes": [
-      "ae",
-      "be",
-      "cz",
-      "nl",
-      "pl",
-      "sk",
-      "tw"
-    ],
+    "locationSet": {
+      "include": [
+        "ae",
+        "be",
+        "cz",
+        "nl",
+        "pl",
+        "sk",
+        "tw"
+      ]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Panos",
@@ -1992,7 +2187,9 @@
     }
   },
   "amenity/fast_food|Pans & Company": {
-    "countryCodes": ["es", "it", "pt"],
+    "locationSet": {
+      "include": ["es", "it", "pt"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Pans & Company",
@@ -2004,6 +2201,7 @@
     }
   },
   "amenity/fast_food|Papa John's": {
+    "locationSet": {"include": ["001"]},
     "matchNames": [
       "papa john",
       "papa john pizza",
@@ -2020,7 +2218,7 @@
     }
   },
   "amenity/fast_food|Papa Murphy's": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "matchNames": [
       "papa murphy",
       "papa murphy pizza",
@@ -2038,7 +2236,7 @@
     }
   },
   "amenity/fast_food|Penn Station": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Penn Station",
@@ -2050,7 +2248,7 @@
     }
   },
   "amenity/fast_food|Philly Pretzel Factory": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "philadelphia pretzel factory",
       "philadelphia soft pretzel factory",
@@ -2066,7 +2264,7 @@
     }
   },
   "amenity/fast_food|Pinulito": {
-    "countryCodes": ["gt"],
+    "locationSet": {"include": ["gt"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pinulito",
@@ -2077,6 +2275,7 @@
     }
   },
   "amenity/fast_food|Pita Pit": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pita Pit",
@@ -2088,7 +2287,7 @@
     }
   },
   "amenity/fast_food|Pizza 73": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza 73",
@@ -2100,16 +2299,19 @@
     }
   },
   "amenity/fast_food|Pizza Capers": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Capers",
+      "brand:wikidata": "Q17021875",
+      "brand:wikipedia": "en:Pizza Capers",
       "cuisine": "pizza",
       "name": "Pizza Capers",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|Pizza Hut Delivery": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Hut",
@@ -2121,6 +2323,7 @@
     }
   },
   "amenity/fast_food|Pizza Hut Express": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["amenity/restaurant|Pizza Hut"],
     "tags": {
       "amenity": "fast_food",
@@ -2133,6 +2336,7 @@
     }
   },
   "amenity/fast_food|Pizza Inn": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Inn",
@@ -2144,6 +2348,7 @@
     }
   },
   "amenity/fast_food|Pizza King": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza King",
@@ -2153,7 +2358,7 @@
     }
   },
   "amenity/fast_food|Pizza Móvil": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Móvil",
@@ -2165,6 +2370,7 @@
     }
   },
   "amenity/fast_food|Pizza Nova": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Nova",
@@ -2175,8 +2381,21 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Pizza Paï": {
+    "locationSet": {"include": ["fr"]},
+    "nomatch": ["amenity/restaurant|Pizza Paï"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Pizza Paï",
+      "brand:wikidata": "Q3389501",
+      "brand:wikipedia": "fr:PizzaPai",
+      "cuisine": "pizza",
+      "name": "Pizza Paï",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Pizza Pizza": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Pizza",
@@ -2188,6 +2407,7 @@
     }
   },
   "amenity/fast_food|Pizza Schmizza": {
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Schmizza",
@@ -2199,7 +2419,7 @@
     }
   },
   "amenity/fast_food|Pizza Tutto": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizza Tutto",
@@ -2209,14 +2429,17 @@
     }
   },
   "amenity/fast_food|Pizzaville": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pizzaville",
+      "cuisine": "pizza",
       "name": "Pizzaville",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|Pollo Campero": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pollo Campero",
@@ -2227,8 +2450,18 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Pollo Feliz": {
+    "locationSet": {"include": ["mx"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Pollo Feliz",
+      "cuisine": "chicken",
+      "name": "Pollo Feliz",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Pollo Granjero~(Costa Rica)": {
-    "countryCodes": ["cr"],
+    "locationSet": {"include": ["cr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pollo Granjero",
@@ -2239,7 +2472,7 @@
     }
   },
   "amenity/fast_food|Pollo Granjero~(Guatemala)": {
-    "countryCodes": ["gt"],
+    "locationSet": {"include": ["gt"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pollo Granjero",
@@ -2250,6 +2483,7 @@
     }
   },
   "amenity/fast_food|Pollo Tropical": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pollo Tropical",
@@ -2261,6 +2495,7 @@
     }
   },
   "amenity/fast_food|Pollolandia": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Pollolandia",
@@ -2270,6 +2505,7 @@
     }
   },
   "amenity/fast_food|Popeyes": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Popeyes",
@@ -2282,7 +2518,7 @@
     }
   },
   "amenity/fast_food|Portillo's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Portillo's",
@@ -2294,7 +2530,7 @@
     }
   },
   "amenity/fast_food|Potbelly": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["potbelly sandwich shop"],
     "tags": {
       "amenity": "fast_food",
@@ -2308,18 +2544,20 @@
     }
   },
   "amenity/fast_food|Pret A Manger": {
-    "countryCodes": [
-      "ae",
-      "cn",
-      "de",
-      "dk",
-      "fr",
-      "gb",
-      "hk",
-      "nl",
-      "sg",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "ae",
+        "cn",
+        "de",
+        "dk",
+        "fr",
+        "gb",
+        "hk",
+        "nl",
+        "sg",
+        "us"
+      ]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Pret A Manger",
@@ -2332,7 +2570,7 @@
     }
   },
   "amenity/fast_food|Pretzelmaker": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["pretzel time"],
     "tags": {
       "amenity": "fast_food",
@@ -2345,7 +2583,7 @@
     }
   },
   "amenity/fast_food|Qdoba": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Qdoba",
@@ -2358,7 +2596,7 @@
     }
   },
   "amenity/fast_food|Quesada": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Quesada",
@@ -2370,7 +2608,9 @@
     }
   },
   "amenity/fast_food|Quick": {
-    "countryCodes": ["be", "fr", "lu"],
+    "locationSet": {
+      "include": ["be", "fr", "lu"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Quick",
@@ -2382,6 +2622,7 @@
     }
   },
   "amenity/fast_food|Quiznos": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["quiznos sub", "quiznos subs"],
     "tags": {
       "amenity": "fast_food",
@@ -2394,7 +2635,7 @@
     }
   },
   "amenity/fast_food|Raising Cane's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Raising Cane's",
@@ -2407,7 +2648,7 @@
     }
   },
   "amenity/fast_food|Rally's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Rally's",
@@ -2418,7 +2659,7 @@
     }
   },
   "amenity/fast_food|Red Rooster": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Red Rooster",
@@ -2430,7 +2671,7 @@
     }
   },
   "amenity/fast_food|Robin's Donuts": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Robin's Donuts",
@@ -2443,7 +2684,7 @@
     }
   },
   "amenity/fast_food|Roy Rogers": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Roy Rogers",
@@ -2455,7 +2696,7 @@
     }
   },
   "amenity/fast_food|Rubio's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["rubios fresh mexican grill"],
     "tags": {
       "amenity": "fast_food",
@@ -2469,7 +2710,7 @@
     }
   },
   "amenity/fast_food|SUSU & Sons": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "matchNames": ["סוסו ובניו"],
     "tags": {
       "amenity": "fast_food",
@@ -2485,7 +2726,7 @@
     }
   },
   "amenity/fast_food|Sarku Japan": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Sarku Japan",
@@ -2496,6 +2737,7 @@
     }
   },
   "amenity/fast_food|Sarpino's Pizzeria": {
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Sarpino's Pizzeria",
@@ -2507,6 +2749,7 @@
     }
   },
   "amenity/fast_food|Sbarro": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["sbarro pizzeria"],
     "tags": {
       "amenity": "fast_food",
@@ -2519,7 +2762,7 @@
     }
   },
   "amenity/fast_food|Schlotzsky's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["schlotzskys deli"],
     "tags": {
       "amenity": "fast_food",
@@ -2532,7 +2775,7 @@
     }
   },
   "amenity/fast_food|Schnitz": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Schnitz",
@@ -2543,8 +2786,33 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Secret Recipe": {
+    "locationSet": {
+      "include": [
+        "bd",
+        "bn",
+        "cn",
+        "id",
+        "kh",
+        "mm",
+        "mv",
+        "my",
+        "sg",
+        "th"
+      ]
+    },
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Secret Recipe",
+      "brand:wikidata": "Q7444079",
+      "brand:wikipedia": "en:Secret Recipe (restaurant)",
+      "cuisine": "cake;malaysian",
+      "name": "Secret Recipe",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Shake Shack": {
-    "countryCodes": ["gb", "us"],
+    "locationSet": {"include": ["gb", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Shake Shack",
@@ -2556,7 +2824,7 @@
     }
   },
   "amenity/fast_food|Sibylla": {
-    "countryCodes": ["fi", "se"],
+    "locationSet": {"include": ["fi", "se"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Sibylla",
@@ -2568,7 +2836,7 @@
     }
   },
   "amenity/fast_food|Smashburger": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Smashburger",
@@ -2580,7 +2848,7 @@
     }
   },
   "amenity/fast_food|Smoothie King": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Smoothie King",
@@ -2591,7 +2859,19 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Smullers": {
+    "locationSet": {"include": ["nl"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Smullers",
+      "brand:wikidata": "Q92552501",
+      "cuisine": "burger",
+      "name": "Smullers",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Sonic": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["sonic drive in"],
     "nomatch": ["amenity/fuel|Sonic"],
     "tags": {
@@ -2606,7 +2886,7 @@
     }
   },
   "amenity/fast_food|Specialty's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Specialty's",
@@ -2617,7 +2897,7 @@
     }
   },
   "amenity/fast_food|St-Hubert Express": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "nomatch": ["amenity/restaurant|St-Hubert"],
     "tags": {
       "amenity": "fast_food",
@@ -2630,7 +2910,7 @@
     }
   },
   "amenity/fast_food|Steak 'n Shake": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Steak 'n Shake",
@@ -2642,7 +2922,7 @@
     }
   },
   "amenity/fast_food|Steak Escape": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Steak Escape",
@@ -2654,6 +2934,7 @@
     }
   },
   "amenity/fast_food|Steers": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Steers",
@@ -2665,6 +2946,7 @@
     }
   },
   "amenity/fast_food|Subway": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["subway sandwiches"],
     "tags": {
       "amenity": "fast_food",
@@ -2677,14 +2959,16 @@
     }
   },
   "amenity/fast_food|Sumo Salad": {
-    "countryCodes": [
-      "ae",
-      "au",
-      "br",
-      "nz",
-      "sg",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "ae",
+        "au",
+        "br",
+        "nz",
+        "sg",
+        "us"
+      ]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Sumo Salad",
@@ -2696,7 +2980,7 @@
     }
   },
   "amenity/fast_food|Supermac's": {
-    "countryCodes": ["gb", "ie"],
+    "locationSet": {"include": ["gb", "ie"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Supermac's",
@@ -2708,7 +2992,7 @@
     }
   },
   "amenity/fast_food|Sushi Shop": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Sushi Shop",
@@ -2718,7 +3002,24 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Sガスト": {
+    "locationSet": {"include": ["jp"]},
+    "nomatch": ["amenity/restaurant|ガスト"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "ガスト",
+      "brand:en": "Gusto",
+      "brand:ja": "ガスト",
+      "brand:wikidata": "Q87724117",
+      "cuisine": "western;japanese",
+      "name": "Sガスト",
+      "name:en": "S-Gusto",
+      "name:ja": "Sガスト",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Taco Bell": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Taco Bell",
@@ -2730,7 +3031,7 @@
     }
   },
   "amenity/fast_food|Taco Bueno": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Taco Bueno",
@@ -2742,7 +3043,7 @@
     }
   },
   "amenity/fast_food|Taco Cabana": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Taco Cabana",
@@ -2754,7 +3055,7 @@
     }
   },
   "amenity/fast_food|Taco Del Mar": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Taco Del Mar",
@@ -2766,7 +3067,7 @@
     }
   },
   "amenity/fast_food|Taco John's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Taco John's",
@@ -2778,7 +3079,7 @@
     }
   },
   "amenity/fast_food|Taco Mayo": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Taco Mayo",
@@ -2790,7 +3091,7 @@
     }
   },
   "amenity/fast_food|Taco Time": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Taco Time",
@@ -2801,8 +3102,21 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Taziki's Mediterranean Cafe": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Taziki's Mediterranean Cafe",
+      "brand:wikidata": "Q19849840",
+      "brand:wikipedia": "en:Taziki's Mediterranean Café",
+      "cuisine": "mediterranean",
+      "name": "Taziki's Mediterranean Cafe",
+      "short_name": "Taziki's",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Ted's Hot Dogs": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Ted's Hot Dogs",
@@ -2814,6 +3128,7 @@
     }
   },
   "amenity/fast_food|Telepizza": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Telepizza",
@@ -2825,7 +3140,7 @@
     }
   },
   "amenity/fast_food|Teriyaki Experience": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Teriyaki Experience",
@@ -2836,6 +3151,7 @@
     }
   },
   "amenity/fast_food|Texas Burger": {
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Texas Burger",
@@ -2845,16 +3161,19 @@
     }
   },
   "amenity/fast_food|Texas Chicken": {
+    "locationSet": {"include": ["001"]},
     "tags": {
+      "alt_name": "Church's Chicken",
       "amenity": "fast_food",
       "brand": "Texas Chicken",
+      "brand:wikidata": "Q1089932",
       "cuisine": "chicken",
       "name": "Texas Chicken",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|Thai Express~(Singapore)": {
-    "countryCodes": ["sg"],
+    "locationSet": {"include": ["sg"]},
     "nomatch": [
       "amenity/fast_food|Thaï Express~(North America)"
     ],
@@ -2869,7 +3188,7 @@
     }
   },
   "amenity/fast_food|Thaï Express~(North America)": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "matchNames": ["thai express"],
     "nomatch": [
       "amenity/fast_food|Thai Express~(Singapore)"
@@ -2884,8 +3203,20 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|The Chicken Rice Shop": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "The Chicken Rice Shop",
+      "brand:wikidata": "Q7722411",
+      "cuisine": "malaysian;chicken_rice",
+      "diet:halal": "yes",
+      "name": "The Chicken Rice Shop",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|The Habit Burger Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["the habit burger"],
     "tags": {
       "alt_name": "Habit Burger Grill",
@@ -2900,19 +3231,21 @@
     }
   },
   "amenity/fast_food|The Pizza Company": {
-    "countryCodes": [
-      "ae",
-      "bh",
-      "cn",
-      "jo",
-      "kh",
-      "la",
-      "mm",
-      "my",
-      "sa",
-      "th",
-      "vn"
-    ],
+    "locationSet": {
+      "include": [
+        "ae",
+        "bh",
+        "cn",
+        "jo",
+        "kh",
+        "la",
+        "mm",
+        "my",
+        "sa",
+        "th",
+        "vn"
+      ]
+    },
     "tags": {
       "alt_name": "Pizza Company",
       "amenity": "fast_food",
@@ -2925,7 +3258,7 @@
     }
   },
   "amenity/fast_food|Togo's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Togo's",
@@ -2937,7 +3270,7 @@
     }
   },
   "amenity/fast_food|Tropical Smoothie Cafe": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Tropical Smoothie Cafe",
@@ -2948,18 +3281,32 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Tudor's Biscuit World": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Tudor's Biscuit World",
+      "brand:wikidata": "Q7851262",
+      "brand:wikipedia": "en:Tudor's Biscuit World",
+      "cuisine": "american",
+      "name": "Tudor's Biscuit World",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Upper Crust": {
-    "countryCodes": [
-      "de",
-      "dk",
-      "eg",
-      "es",
-      "fi",
-      "gb",
-      "ie",
-      "no",
-      "se"
-    ],
+    "locationSet": {
+      "include": [
+        "de",
+        "dk",
+        "eg",
+        "es",
+        "fi",
+        "gb",
+        "ie",
+        "no",
+        "se"
+      ]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Upper Crust",
@@ -2971,7 +3318,7 @@
     }
   },
   "amenity/fast_food|Valentine": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Valentine",
@@ -2983,7 +3330,7 @@
     }
   },
   "amenity/fast_food|Veggie Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Veggie Grill",
@@ -2996,7 +3343,7 @@
     }
   },
   "amenity/fast_food|Villa Madina": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Villa Madina",
@@ -3007,7 +3354,7 @@
     }
   },
   "amenity/fast_food|Wahoo's Fish Taco": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Wahoo's Fish Taco",
@@ -3020,6 +3367,7 @@
     }
   },
   "amenity/fast_food|Wayback Burgers": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Wayback Burgers",
@@ -3031,6 +3379,7 @@
     }
   },
   "amenity/fast_food|Wendy's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Wendy's",
@@ -3042,7 +3391,7 @@
     }
   },
   "amenity/fast_food|West Cornwall Pasty Co.": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "West Cornwall Pasty Co.",
@@ -3054,7 +3403,7 @@
     }
   },
   "amenity/fast_food|Wetzel's Pretzels": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Wetzel's Pretzels",
@@ -3066,7 +3415,7 @@
     }
   },
   "amenity/fast_food|Whataburger": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Whataburger",
@@ -3078,16 +3427,18 @@
     }
   },
   "amenity/fast_food|Which Wich?": {
-    "countryCodes": [
-      "ae",
-      "gb",
-      "gt",
-      "mx",
-      "om",
-      "qa",
-      "sa",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "ae",
+        "gb",
+        "gt",
+        "mx",
+        "om",
+        "qa",
+        "sa",
+        "us"
+      ]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Which Wich?",
@@ -3099,7 +3450,7 @@
     }
   },
   "amenity/fast_food|White Castle": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "White Castle",
@@ -3111,7 +3462,7 @@
     }
   },
   "amenity/fast_food|Wienerschnitzel": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Wienerschnitzel",
@@ -3123,6 +3474,7 @@
     }
   },
   "amenity/fast_food|Wimpy": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Wimpy",
@@ -3134,7 +3486,9 @@
     }
   },
   "amenity/fast_food|WingStreet": {
-    "countryCodes": ["au", "ca", "cy", "us"],
+    "locationSet": {
+      "include": ["au", "ca", "cy", "us"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "WingStreet",
@@ -3146,7 +3500,7 @@
     }
   },
   "amenity/fast_food|Wingstop": {
-    "countryCodes": ["mx", "us"],
+    "locationSet": {"include": ["mx", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Wingstop",
@@ -3158,7 +3512,7 @@
     }
   },
   "amenity/fast_food|Xi'an Famous Foods": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Xi'an Famous Foods",
@@ -3170,6 +3524,7 @@
     }
   },
   "amenity/fast_food|Yellow Cab Pizza": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Yellow Cab Pizza",
@@ -3180,8 +3535,25 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Yoshinoya": {
+    "locationSet": {
+      "include": ["id", "my", "ph", "sg", "us"]
+    },
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Yoshinoya",
+      "brand:en": "Yoshinoya",
+      "brand:wikidata": "Q776272",
+      "brand:wikipedia": "ja:吉野家",
+      "cuisine": "beef_bowl",
+      "name": "Yoshinoya",
+      "name:en": "Yoshinoya",
+      "name:ja": "吉野家",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Zaxby's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Zaxby's",
@@ -3194,7 +3566,7 @@
     }
   },
   "amenity/fast_food|Zoës Kitchen": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Zoës Kitchen",
@@ -3206,19 +3578,19 @@
     }
   },
   "amenity/fast_food|immergrün": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "matchNames": ["immergün"],
     "tags": {
       "amenity": "fast_food",
       "brand": "immergrün",
       "brand:wikidata": "Q62589254",
       "cuisine": "sandwich;salad;juice",
-      "name": "immergün",
+      "name": "immergrün",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|itsu": {
-    "countryCodes": ["gb", "us"],
+    "locationSet": {"include": ["gb", "us"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "itsu",
@@ -3230,7 +3602,7 @@
     }
   },
   "amenity/fast_food|Γρηγόρης": {
-    "countryCodes": ["gr"],
+    "locationSet": {"include": ["gr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Γρηγόρης",
@@ -3245,7 +3617,9 @@
     }
   },
   "amenity/fast_food|Бургер Кинг": {
-    "countryCodes": ["by", "kz", "ru"],
+    "locationSet": {
+      "include": ["by", "kz", "ru"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "Бургер Кинг",
@@ -3260,7 +3634,24 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Додо Пицца": {
+    "locationSet": {"include": ["ru"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Додо Пицца",
+      "brand:en": "Dodo Pizza",
+      "brand:ru": "Додо Пицца",
+      "brand:wikidata": "Q61949318",
+      "brand:wikipedia": "ru:Додо Пицца",
+      "cuisine": "pizza",
+      "name": "Додо Пицца",
+      "name:en": "Dodo Pizza",
+      "name:ru": "Додо Пицца",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|Домино'c": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["доминоc пицца"],
     "tags": {
       "amenity": "fast_food",
@@ -3277,7 +3668,7 @@
     }
   },
   "amenity/fast_food|Крошка Картошка": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Крошка Картошка",
@@ -3293,6 +3684,7 @@
     }
   },
   "amenity/fast_food|Макдоналдс": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Макдоналдс",
@@ -3308,7 +3700,7 @@
     }
   },
   "amenity/fast_food|Папа Джонс": {
-    "countryCodes": ["by", "ru"],
+    "locationSet": {"include": ["by", "ru"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Папа Джонс",
@@ -3324,7 +3716,7 @@
     }
   },
   "amenity/fast_food|Пузата хата": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "matchTags": [
       "amenity/cafe",
       "amenity/restaurant"
@@ -3334,19 +3726,19 @@
       "brand": "Пузата Хата",
       "brand:en": "Puzata hata",
       "brand:ru": "Пузата Хата",
-      "brand:ua": "Пузата Хата",
+      "brand:uk": "Пузата Хата",
       "brand:wikidata": "Q11832009",
       "brand:wikipedia": "uk:Пузата Хата",
       "cuisine": "ukrainian;western",
       "name": "Пузата Хата",
       "name:en": "Puzata hata",
       "name:ru": "Пузата Хата",
-      "name:ua": "Пузата Хата",
+      "name:uk": "Пузата Хата",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|Робин Сдобин": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Робин Сдобин",
@@ -3361,7 +3753,7 @@
     }
   },
   "amenity/fast_food|Русский Аппетит": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Русский Аппетит",
@@ -3376,7 +3768,7 @@
     }
   },
   "amenity/fast_food|Стардог!s": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "Стардог!s",
@@ -3392,7 +3784,7 @@
     }
   },
   "amenity/fast_food|Суши Wok": {
-    "countryCodes": ["ru", "ua"],
+    "locationSet": {"include": ["ru", "ua"]},
     "matchTags": ["shop/convenience"],
     "tags": {
       "amenity": "fast_food",
@@ -3409,7 +3801,7 @@
     }
   },
   "amenity/fast_food|Теремок": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "matchTags": ["shop/convenience"],
     "tags": {
       "amenity": "fast_food",
@@ -3425,8 +3817,20 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|Чебуречная": {
+    "locationSet": {
+      "include": ["by", "ru", "ua"]
+    },
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "Чебуречная",
+      "cuisine": "uzbek;russian",
+      "name": "Чебуречная",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|אגדיר": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "אגדיר",
@@ -3441,7 +3845,7 @@
     }
   },
   "amenity/fast_food|מקדונלד'ס": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "מקדונלד'ס",
@@ -3457,7 +3861,7 @@
     }
   },
   "amenity/fast_food|עד העצם אקספרס": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "עד העצם אקספרס",
@@ -3472,6 +3876,7 @@
     }
   },
   "amenity/fast_food|دجاج كنتاكي": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "دجاج كنتاكي",
@@ -3487,6 +3892,7 @@
     }
   },
   "amenity/fast_food|ماكدونالدز": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ماكدونالدز",
@@ -3502,7 +3908,9 @@
     }
   },
   "amenity/fast_food|هرفي": {
-    "countryCodes": ["ae", "bh", "kw", "sa"],
+    "locationSet": {
+      "include": ["ae", "bh", "kw", "sa"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "هرفي",
@@ -3518,7 +3926,7 @@
     }
   },
   "amenity/fast_food|かっぱ寿司": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "かっぱ寿司",
@@ -3534,7 +3942,7 @@
     }
   },
   "amenity/fast_food|かつや": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "かつや",
@@ -3552,23 +3960,27 @@
     }
   },
   "amenity/fast_food|くら寿司": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
+      "alt_name:en": "Kurazushi",
       "amenity": "fast_food",
       "brand": "くら寿司",
-      "brand:en": "Kurazushi",
+      "brand:en": "Kura Sushi",
       "brand:ja": "くら寿司",
       "brand:wikidata": "Q6445491",
       "brand:wikipedia": "ja:くら寿司",
       "cuisine": "sushi",
       "name": "くら寿司",
-      "name:en": "Kurazushi",
+      "name:en": "Kura Sushi",
       "name:ja": "くら寿司",
+      "official_name": "無添くら寿司",
+      "official_name:en": "Muten Kura Sushi",
+      "official_name:ja": "無添くら寿司",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|すき家": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "すき家",
@@ -3583,8 +3995,25 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|ちよだ鮨": {
+    "locationSet": {"include": ["jp"]},
+    "matchTags": ["shop/deli"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "ちよだ鮨",
+      "brand:en": "Chiyoda Sushi",
+      "brand:ja": "ちよだ鮨",
+      "brand:wikidata": "Q11272065",
+      "brand:wikipedia": "ja:ちよだ鮨",
+      "cuisine": "sushi",
+      "name": "ちよだ鮨",
+      "name:en": "Chiyoda Sushi",
+      "name:ja": "ちよだ鮨",
+      "takeaway": "only"
+    }
+  },
   "amenity/fast_food|てんや": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "てんや",
@@ -3596,11 +4025,29 @@
       "name": "てんや",
       "name:en": "Tenya",
       "name:ja": "てんや",
+      "official_name": "天丼てんや",
+      "official_name:en": "Tendon Tenya",
+      "official_name:ja": "天丼てんや",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|どんどん亭": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "どんどん亭",
+      "brand:en": "Dondontei",
+      "brand:ja": "どんどん亭",
+      "brand:wikidata": "Q96101856",
+      "cuisine": "japanese",
+      "name": "どんどん亭",
+      "name:en": "Dondontei",
+      "name:ja": "どんどん亭",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|なか卯": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "なか卯",
@@ -3616,7 +4063,7 @@
     }
   },
   "amenity/fast_food|はま寿司": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "はま寿司",
@@ -3632,7 +4079,7 @@
     }
   },
   "amenity/fast_food|ほっかほっか亭": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ほっかほっか亭",
@@ -3648,7 +4095,7 @@
     }
   },
   "amenity/fast_food|ほっともっと": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "nomatch": ["shop/deli|ほっともっと"],
     "tags": {
       "amenity": "fast_food",
@@ -3665,7 +4112,7 @@
     }
   },
   "amenity/fast_food|ゆで太郎": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ゆで太郎",
@@ -3681,7 +4128,7 @@
     }
   },
   "amenity/fast_food|ウェンディーズ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ウェンディーズ",
@@ -3697,7 +4144,7 @@
     }
   },
   "amenity/fast_food|オリジン弁当": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "オリジン弁当",
@@ -3712,9 +4159,26 @@
       "takeaway": "yes"
     }
   },
-  "amenity/fast_food|ケンタッキーフライドチキン": {
-    "countryCodes": ["jp"],
+  "amenity/fast_food|キッチンオリジン": {
+    "locationSet": {"include": ["jp"]},
     "tags": {
+      "amenity": "fast_food",
+      "brand": "キッチンオリジン",
+      "brand:en": "Kitchen Origin",
+      "brand:ja": "キッチンオリジン",
+      "brand:wikidata": "Q92658990",
+      "cuisine": "japanese",
+      "name": "キッチンオリジン",
+      "name:en": "Kitchen Origin",
+      "name:ja": "キッチンオリジン",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|ケンタッキーフライドチキン": {
+    "locationSet": {"include": ["jp"]},
+    "matchNames": ["ケンタッキー"],
+    "tags": {
+      "alt_name:en": "Kentucky Fried Chicken",
       "amenity": "fast_food",
       "brand": "ケンタッキーフライドチキン",
       "brand:en": "KFC",
@@ -3729,7 +4193,7 @@
     }
   },
   "amenity/fast_food|ゴーゴーカレー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "alt_name:en": "Go Go Curry",
       "amenity": "fast_food",
@@ -3746,7 +4210,7 @@
     }
   },
   "amenity/fast_food|サブウェイ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "サブウェイ",
@@ -3762,7 +4226,7 @@
     }
   },
   "amenity/fast_food|スシロー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "スシロー",
@@ -3775,11 +4239,14 @@
       "name:en": "Sushiro",
       "name:ja": "スシロー",
       "name:zh": "壽司郎",
+      "official_name": "あきんどスシロー",
+      "official_name:en": "Akindo Sushiro",
+      "official_name:ja": "あきんどスシロー",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|ドミノ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["ドミノ・ピザ"],
     "tags": {
       "amenity": "fast_food",
@@ -3796,7 +4263,7 @@
     }
   },
   "amenity/fast_food|バーガーキング": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "バーガーキング",
@@ -3812,7 +4279,7 @@
     }
   },
   "amenity/fast_food|ピザハット": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ピザハット",
@@ -3827,8 +4294,24 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|ピザポケット": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "ピザポケット",
+      "brand:en": "Pizza Pocket's",
+      "brand:ja": "ピザポケット",
+      "brand:wikidata": "Q11331462",
+      "brand:wikipedia": "ja:ピザポケット",
+      "cuisine": "pizza",
+      "name": "ピザポケット",
+      "name:en": "Pizza Pocket's",
+      "name:ja": "ピザポケット",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|ピザ・カリフォルニア": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ピザ・カリフォルニア",
@@ -3844,7 +4327,7 @@
     }
   },
   "amenity/fast_food|ピザーラ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ピザーラ",
@@ -3860,7 +4343,7 @@
     }
   },
   "amenity/fast_food|ファーストキッチン": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ファーストキッチン",
@@ -3868,7 +4351,7 @@
       "brand:ja": "ファーストキッチン",
       "brand:wikidata": "Q5453133",
       "brand:wikipedia": "ja:ファーストキッチン",
-      "cuisine": "pizza",
+      "cuisine": "friture",
       "name": "ファーストキッチン",
       "name:en": "First Kitchen",
       "name:ja": "ファーストキッチン",
@@ -3876,7 +4359,7 @@
     }
   },
   "amenity/fast_food|フレッシュネスバーガー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "フレッシュネスバーガー",
@@ -3892,7 +4375,7 @@
     }
   },
   "amenity/fast_food|マクドナルド": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "マクドナルド",
@@ -3908,7 +4391,7 @@
     }
   },
   "amenity/fast_food|ミスタードーナツ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ミスタードーナツ",
@@ -3924,7 +4407,7 @@
     }
   },
   "amenity/fast_food|モスバーガー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "モスバーガー",
@@ -3940,7 +4423,7 @@
     }
   },
   "amenity/fast_food|ラーメン二郎": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ラーメン二郎",
@@ -3956,7 +4439,7 @@
     }
   },
   "amenity/fast_food|ロッテリア": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "ロッテリア",
@@ -3972,7 +4455,9 @@
     }
   },
   "amenity/fast_food|吉野家": {
-    "countryCodes": ["jp"],
+    "locationSet": {
+      "include": ["cn", "hk", "jp", "tw"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "吉野家",
@@ -3988,7 +4473,7 @@
     }
   },
   "amenity/fast_food|富士そば": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "富士そば",
@@ -4003,8 +4488,25 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|小僧寿し": {
+    "locationSet": {"include": ["jp"]},
+    "matchNames": ["sushi花館", "小僧寿司"],
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "小僧寿し",
+      "brand:en": "Kozosushi",
+      "brand:ja": "小僧寿し",
+      "brand:wikidata": "Q11459064",
+      "brand:wikipedia": "ja:小僧寿し",
+      "cuisine": "sushi",
+      "name": "小僧寿し",
+      "name:en": "Kozosushi",
+      "name:ja": "小僧寿し",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|幸楽苑": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "幸楽苑",
@@ -4019,14 +4521,26 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|庆丰包子铺": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "庆丰包子铺",
+      "brand:en": "Qingfeng Steamed Dumpling Shop",
+      "brand:wikidata": "Q24841010",
+      "brand:wikipedia": "zh:庆丰包子铺",
+      "brand:zh": "庆丰包子铺",
+      "cuisine": "chinese",
+      "name": "庆丰包子铺",
+      "name:en": "Qingfeng Steamed Dumpling Shop",
+      "name:zh": "庆丰包子铺",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|摩斯漢堡": {
-    "countryCodes": [
-      "cn",
-      "hk",
-      "mo",
-      "sg",
-      "tw"
-    ],
+    "locationSet": {
+      "include": ["cn", "hk", "mo", "sg", "tw"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "摩斯漢堡",
@@ -4042,28 +4556,50 @@
     }
   },
   "amenity/fast_food|日高屋": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "日高屋",
       "brand:en": "Hidakaya",
+      "brand:ja": "日高屋",
       "brand:wikidata": "Q11326050",
       "brand:wikipedia": "ja:ハイデイ日高",
       "cuisine": "noodle",
       "name": "日高屋",
       "name:en": "Hidakaya",
+      "name:ja": "日高屋",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|本家かまどや": {
+    "locationSet": {"include": ["jp"]},
+    "matchNames": ["かまどや"],
+    "tags": {
+      "alt_name": "かまどや",
+      "amenity": "fast_food",
+      "brand": "本家かまどや",
+      "brand:en": "Honke Kamadoya",
+      "brand:ja": "本家かまどや",
+      "brand:wikidata": "Q11520140",
+      "brand:wikipedia": "ja:本家かまどや",
+      "cuisine": "japanese",
+      "name": "本家かまどや",
+      "name:en": "Honke Kamadoya",
+      "name:ja": "本家かまどや",
       "takeaway": "yes"
     }
   },
   "amenity/fast_food|松屋": {
-    "countryCodes": [
-      "cn",
-      "hk",
-      "jp",
-      "mo",
-      "sg",
-      "tw"
-    ],
+    "locationSet": {
+      "include": [
+        "cn",
+        "hk",
+        "jp",
+        "mo",
+        "sg",
+        "tw"
+      ]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "松屋",
@@ -4081,8 +4617,52 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|永和大王": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "永和大王",
+      "brand:wikidata": "Q8055004",
+      "brand:wikipedia": "zh:永和大王",
+      "cuisine": "chinese",
+      "name": "永和大王",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|汉堡王": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "汉堡王",
+      "brand:en": "Burger King",
+      "brand:wikidata": "Q177054",
+      "brand:wikipedia": "zh:汉堡王",
+      "brand:zh": "汉堡王",
+      "cuisine": "burger",
+      "name": "汉堡王",
+      "name:en": "Burger King",
+      "name:zh": "汉堡王",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|真功夫": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "真功夫",
+      "brand:en": "Kungfu",
+      "brand:wikidata": "Q15909765",
+      "brand:wikipedia": "zh:真功夫",
+      "brand:zh": "真功夫",
+      "cuisine": "chinese",
+      "name": "真功夫",
+      "name:en": "Kungfu",
+      "name:zh": "真功夫",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|箱根そば": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "箱根そば",
@@ -4098,7 +4678,7 @@
     }
   },
   "amenity/fast_food|築地銀だこ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "築地銀だこ",
@@ -4114,13 +4694,9 @@
     }
   },
   "amenity/fast_food|肯德基": {
-    "countryCodes": [
-      "cn",
-      "hk",
-      "mo",
-      "sg",
-      "tw"
-    ],
+    "locationSet": {
+      "include": ["cn", "hk", "mo", "sg", "tw"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "肯德基",
@@ -4133,8 +4709,62 @@
       "takeaway": "yes"
     }
   },
+  "amenity/fast_food|赛百味": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "赛百味",
+      "brand:en": "Subway",
+      "brand:wikidata": "Q244457",
+      "brand:wikipedia": "zh:赛百味",
+      "brand:zh": "赛百味",
+      "cuisine": "sandwich",
+      "name": "赛百味",
+      "name:en": "Subway",
+      "name:zh": "赛百味",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|道とん堀": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "道とん堀",
+      "brand:en": "Dohtonbori",
+      "brand:ja": "道とん堀",
+      "brand:wikidata": "Q11640595",
+      "brand:wikipedia": "ja:道とん堀",
+      "cuisine": "okonomiyaki",
+      "name": "道とん堀",
+      "name:en": "Dohtonbori",
+      "name:ja": "道とん堀",
+      "official_name": "お好み焼道とん堀",
+      "official_name:en": "Okonomiyaki Dohtonbori",
+      "official_name:ja": "お好み焼道とん堀",
+      "takeaway": "yes"
+    }
+  },
+  "amenity/fast_food|銚子丸": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "fast_food",
+      "brand": "銚子丸",
+      "brand:en": "Choushimaru",
+      "brand:ja": "銚子丸",
+      "brand:wikidata": "Q11650214",
+      "brand:wikipedia": "ja:銚子丸",
+      "cuisine": "sushi",
+      "name": "銚子丸",
+      "name:en": "Choushimaru",
+      "name:ja": "銚子丸",
+      "official_name": "すし銚子丸",
+      "takeaway": "yes"
+    }
+  },
   "amenity/fast_food|麥當勞": {
-    "countryCodes": ["hk", "mo", "tw"],
+    "locationSet": {
+      "include": ["hk", "mo", "tw"]
+    },
     "tags": {
       "amenity": "fast_food",
       "brand": "麥當勞",
@@ -4152,7 +4782,7 @@
     }
   },
   "amenity/fast_food|麦当劳": {
-    "countryCodes": ["cn", "sg"],
+    "locationSet": {"include": ["cn", "sg"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "麦当劳",
@@ -4170,7 +4800,7 @@
     }
   },
   "amenity/fast_food|롯데리아": {
-    "countryCodes": ["kr"],
+    "locationSet": {"include": ["kr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "롯데리아",
@@ -4186,7 +4816,7 @@
     }
   },
   "amenity/fast_food|맘스터치": {
-    "countryCodes": ["kr"],
+    "locationSet": {"include": ["kr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "맘스터치",
@@ -4200,7 +4830,7 @@
     }
   },
   "amenity/fast_food|맥도날드": {
-    "countryCodes": ["kr"],
+    "locationSet": {"include": ["kr"]},
     "tags": {
       "amenity": "fast_food",
       "brand": "맥도날드",

@@ -1,5 +1,6 @@
 {
   "shop/car|Alfa Romeo": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Alfa Romeo",
       "brand:wikidata": "Q26921",
@@ -9,6 +10,7 @@
     }
   },
   "shop/car|Aston Martin": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Aston Martin",
       "brand:wikidata": "Q27074",
@@ -18,6 +20,7 @@
     }
   },
   "shop/car|Audi": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Audi",
       "brand:wikidata": "Q23317",
@@ -27,6 +30,7 @@
     }
   },
   "shop/car|BMW": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "BMW",
       "brand:wikidata": "Q26678",
@@ -36,6 +40,7 @@
     }
   },
   "shop/car|Bentley": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/bag|Bentley"],
     "tags": {
       "brand": "Bentley",
@@ -46,7 +51,9 @@
     }
   },
   "shop/car|Buick": {
-    "countryCodes": ["ca", "cn", "mx", "us"],
+    "locationSet": {
+      "include": ["ca", "cn", "mx", "us"]
+    },
     "tags": {
       "brand": "Buick",
       "brand:wikidata": "Q27415",
@@ -56,6 +63,7 @@
     }
   },
   "shop/car|Cadillac": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Cadillac",
       "brand:wikidata": "Q27436",
@@ -65,7 +73,7 @@
     }
   },
   "shop/car|CarMax": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "brand": "CarMax",
       "brand:wikidata": "Q5037190",
@@ -76,6 +84,7 @@
     }
   },
   "shop/car|Chevrolet": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Chevrolet",
       "brand:wikidata": "Q29570",
@@ -85,6 +94,7 @@
     }
   },
   "shop/car|Chrysler": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Chrysler",
       "brand:wikidata": "Q181114",
@@ -94,6 +104,7 @@
     }
   },
   "shop/car|Citroën": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/car_repair|Citroën"],
     "tags": {
       "brand": "Citroën",
@@ -104,6 +115,7 @@
     }
   },
   "shop/car|Dacia": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Dacia",
       "brand:wikidata": "Q27460",
@@ -113,6 +125,7 @@
     }
   },
   "shop/car|Dodge": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Dodge",
       "brand:wikidata": "Q27564",
@@ -121,7 +134,19 @@
       "shop": "car"
     }
   },
+  "shop/car|DriveTime": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "brand": "DriveTime",
+      "brand:wikidata": "Q5307879",
+      "brand:wikipedia": "en:DriveTime",
+      "name": "DriveTime",
+      "second_hand": "only",
+      "shop": "car"
+    }
+  },
   "shop/car|Fiat": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Fiat",
       "brand:wikidata": "Q27597",
@@ -131,6 +156,7 @@
     }
   },
   "shop/car|Ford": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/car_repair|Ford"],
     "tags": {
       "brand": "Ford",
@@ -141,6 +167,7 @@
     }
   },
   "shop/car|Freightliner": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Freightliner",
       "brand:wikidata": "Q1420724",
@@ -150,6 +177,7 @@
     }
   },
   "shop/car|GMC": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "GMC",
       "brand:wikidata": "Q28993",
@@ -158,8 +186,18 @@
       "shop": "car"
     }
   },
+  "shop/car|Geely": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Geely",
+      "brand:wikidata": "Q739000",
+      "brand:wikipedia": "en:Geely",
+      "name": "Geely",
+      "shop": "car"
+    }
+  },
   "shop/car|Holden": {
-    "countryCodes": ["au", "nz"],
+    "locationSet": {"include": ["au", "nz"]},
     "tags": {
       "brand": "Holden",
       "brand:wikidata": "Q29281",
@@ -169,6 +207,7 @@
     }
   },
   "shop/car|Honda": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["honda cars"],
     "nomatch": ["shop/motorcycle|Honda"],
     "tags": {
@@ -180,6 +219,7 @@
     }
   },
   "shop/car|Hyundai": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Hyundai",
       "brand:wikidata": "Q55931",
@@ -189,6 +229,7 @@
     }
   },
   "shop/car|Isuzu": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Isuzu",
       "brand:wikidata": "Q29803",
@@ -198,6 +239,7 @@
     }
   },
   "shop/car|Jaguar": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Jaguar",
       "brand:wikidata": "Q26742231",
@@ -206,6 +248,7 @@
     }
   },
   "shop/car|Jeep": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Jeep",
       "brand:wikidata": "Q30113",
@@ -215,6 +258,7 @@
     }
   },
   "shop/car|Kia": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["kia motors"],
     "tags": {
       "brand": "Kia",
@@ -225,6 +269,7 @@
     }
   },
   "shop/car|Lada": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Lada",
       "brand:en": "Lada",
@@ -238,6 +283,7 @@
     }
   },
   "shop/car|Land Rover": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Land Rover",
       "brand:wikidata": "Q26777551",
@@ -246,6 +292,7 @@
     }
   },
   "shop/car|Lexus": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Lexus",
       "brand:wikidata": "Q35919",
@@ -255,6 +302,7 @@
     }
   },
   "shop/car|Lincoln": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Lincoln",
       "brand:wikidata": "Q216796",
@@ -264,6 +312,7 @@
     }
   },
   "shop/car|Mazda": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Mazda",
       "brand:wikidata": "Q35996",
@@ -273,6 +322,7 @@
     }
   },
   "shop/car|Mercedes-Benz": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["mercedes"],
     "tags": {
       "brand": "Mercedes-Benz",
@@ -282,7 +332,16 @@
       "shop": "car"
     }
   },
+  "shop/car|Mini": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Mini",
+      "name": "Mini",
+      "shop": "car"
+    }
+  },
   "shop/car|Mitsubishi": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["mitsubishi motors"],
     "tags": {
       "brand": "Mitsubishi",
@@ -293,7 +352,7 @@
     }
   },
   "shop/car|Netz": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "brand": "Netz",
       "brand:wikidata": "Q11325416",
@@ -303,6 +362,7 @@
     }
   },
   "shop/car|Nissan": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Nissan",
       "brand:wikidata": "Q20165",
@@ -312,6 +372,7 @@
     }
   },
   "shop/car|Opel": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Opel",
       "brand:wikidata": "Q40966",
@@ -320,7 +381,20 @@
       "shop": "car"
     }
   },
+  "shop/car|Perodua": {
+    "locationSet": {
+      "include": ["my", "sg", "uk"]
+    },
+    "tags": {
+      "brand": "Perodua",
+      "brand:wikidata": "Q1476369",
+      "brand:wikipedia": "en:Perodua",
+      "name": "Perodua",
+      "shop": "car"
+    }
+  },
   "shop/car|Peterbilt": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Peterbilt",
       "brand:wikidata": "Q944640",
@@ -330,6 +404,7 @@
     }
   },
   "shop/car|Peugeot": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/car_repair|Peugeot"],
     "tags": {
       "brand": "Peugeot",
@@ -340,6 +415,7 @@
     }
   },
   "shop/car|Porsche": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Porsche",
       "brand:wikidata": "Q40993",
@@ -349,14 +425,16 @@
     }
   },
   "shop/car|Proton": {
-    "countryCodes": [
-      "cl",
-      "eg",
-      "id",
-      "my",
-      "sg",
-      "th"
-    ],
+    "locationSet": {
+      "include": [
+        "cl",
+        "eg",
+        "id",
+        "my",
+        "sg",
+        "th"
+      ]
+    },
     "tags": {
       "brand": "Proton",
       "brand:wikidata": "Q827306",
@@ -366,6 +444,7 @@
     }
   },
   "shop/car|Ram": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Ram",
       "brand:wikidata": "Q165708",
@@ -375,6 +454,7 @@
     }
   },
   "shop/car|Renault": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/car_repair|Renault"],
     "tags": {
       "brand": "Renault",
@@ -385,6 +465,7 @@
     }
   },
   "shop/car|Seat": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Seat",
       "brand:wikidata": "Q188217",
@@ -394,6 +475,7 @@
     }
   },
   "shop/car|Subaru": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Subaru",
       "brand:wikidata": "Q172741",
@@ -403,6 +485,7 @@
     }
   },
   "shop/car|Suzuki": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/motorcycle|Suzuki"],
     "tags": {
       "brand": "Suzuki",
@@ -413,6 +496,7 @@
     }
   },
   "shop/car|Tesla": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["tesla motors"],
     "tags": {
       "brand": "Tesla",
@@ -423,6 +507,7 @@
     }
   },
   "shop/car|Toyota": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["shop/car_repair|Toyota"],
     "tags": {
       "brand": "Toyota",
@@ -433,6 +518,7 @@
     }
   },
   "shop/car|Volkswagen": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["vw"],
     "tags": {
       "brand": "Volkswagen",
@@ -443,6 +529,7 @@
     }
   },
   "shop/car|Volvo": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Volvo",
       "brand:wikidata": "Q215293",
@@ -452,6 +539,7 @@
     }
   },
   "shop/car|Škoda": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Škoda",
       "brand:wikidata": "Q29637",
@@ -461,7 +549,7 @@
     }
   },
   "shop/car|Автомир": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "matchTags": ["shop/car_parts"],
     "tags": {
       "brand": "Автомир",
@@ -476,7 +564,7 @@
     }
   },
   "shop/car|سایپا": {
-    "countryCodes": ["ir"],
+    "locationSet": {"include": ["ir"]},
     "tags": {
       "brand": "سایپا",
       "brand:en": "Saipa",
@@ -490,7 +578,7 @@
     }
   },
   "shop/car|ガリバー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "brand": "ガリバー",
       "brand:en": "Gulliver",
@@ -504,7 +592,7 @@
     }
   },
   "shop/car|ダイハツ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "brand": "ダイハツ",
       "brand:en": "Daihatsu",
@@ -518,7 +606,7 @@
     }
   },
   "shop/car|トヨタ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["トヨタカローラ", "トヨタ自動車"],
     "tags": {
       "brand": "トヨタ",
@@ -533,7 +621,7 @@
     }
   },
   "shop/car|ホンダ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "brand": "ホンダ",
       "brand:en": "Honda",

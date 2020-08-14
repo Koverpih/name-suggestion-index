@@ -1,6 +1,16 @@
 {
+  "shop/tiles|Tile Giant": {
+    "locationSet": {"include": ["gb"]},
+    "matchTags": ["shop/diy"],
+    "tags": {
+      "brand": "Tile Giant",
+      "brand:wikidata": "Q87007841",
+      "name": "Tile Giant",
+      "shop": "tiles"
+    }
+  },
   "shop/tiles|Topps Tiles": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchTags": ["shop/diy"],
     "tags": {
       "brand": "Topps Tiles",

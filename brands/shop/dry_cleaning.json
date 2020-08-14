@@ -1,5 +1,6 @@
 {
   "shop/dry_cleaning|5àsec": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "5àsec",
       "brand:wikidata": "Q2817899",
@@ -9,7 +10,7 @@
     }
   },
   "shop/dry_cleaning|Johnsons": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchNames": [
       "johnson",
       "johnsons cleaners"
@@ -23,6 +24,7 @@
     }
   },
   "shop/dry_cleaning|Martinizing Dry Cleaning": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Martinizing Dry Cleaning",
       "brand:wikidata": "Q6777169",
@@ -32,7 +34,7 @@
     }
   },
   "shop/dry_cleaning|Tide Cleaners": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["tide", "tide dry cleaners"],
     "tags": {
       "brand": "Tide Cleaners",
@@ -42,7 +44,7 @@
     }
   },
   "shop/dry_cleaning|Диана": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "brand": "Диана",
       "brand:wikidata": "Q62105088",
@@ -50,8 +52,21 @@
       "shop": "dry_cleaning"
     }
   },
+  "shop/dry_cleaning|うさちゃんクリーニング": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "うさちゃんクリーニング",
+      "brand:en": "Usachan Cleaning",
+      "brand:ja": "うさちゃんクリーニング",
+      "brand:wikidata": "Q93641593",
+      "name": "うさちゃんクリーニング",
+      "name:en": "Usachan Cleaning",
+      "name:ja": "うさちゃんクリーニング",
+      "shop": "dry_cleaning"
+    }
+  },
   "shop/dry_cleaning|タカケンサンシャイン": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["タカケンクリーング"],
     "tags": {
       "brand": "タカケンサンシャイン",
@@ -65,8 +80,22 @@
       "shop": "dry_cleaning"
     }
   },
+  "shop/dry_cleaning|ダイヤクリーニング": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "ダイヤクリーニング",
+      "brand:en": "Dia Cleaning",
+      "brand:ja": "ダイヤクリーニング",
+      "brand:wikidata": "Q11316968",
+      "brand:wikipedia": "ja:ダイヤクリーニング",
+      "name": "ダイヤクリーニング",
+      "name:en": "Dia Cleaning",
+      "name:ja": "ダイヤクリーニング",
+      "shop": "dry_cleaning"
+    }
+  },
   "shop/dry_cleaning|ホワイト急便": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "brand": "ホワイト急便",
       "brand:en": "White Kyuubin",
@@ -79,15 +108,47 @@
       "shop": "dry_cleaning"
     }
   },
+  "shop/dry_cleaning|ポニー": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "ポニー",
+      "brand:en": "Pony",
+      "brand:ja": "ポニー",
+      "brand:wikidata": "Q88012241",
+      "name": "ポニー",
+      "name:en": "Pony",
+      "name:ja": "ポニー",
+      "official_name": "ポニークリーニング",
+      "official_name:en": "Pony Cleaning",
+      "official_name:ja": "ポニークリーニング",
+      "shop": "dry_cleaning"
+    }
+  },
+  "shop/dry_cleaning|ヤングドライ": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "ヤングドライ",
+      "brand:en": "Young Dry",
+      "brand:ja": "ヤングドライ",
+      "brand:wikidata": "Q11345434",
+      "brand:wikipedia": "ja:ヤングドライ",
+      "name": "ヤングドライ",
+      "name:en": "Young Dry",
+      "name:ja": "ヤングドライ",
+      "shop": "dry_cleaning"
+    }
+  },
   "shop/dry_cleaning|白洋舎": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "brand": "白洋舎",
       "brand:en": "Hakuyosha",
+      "brand:ja": "白洋舎",
       "brand:wikidata": "Q11579995",
       "brand:wikipedia": "ja:白洋舎",
       "name": "白洋舎",
       "name:en": "Hakuyosha",
+      "name:ja": "白洋舎",
       "shop": "dry_cleaning"
     }
   }

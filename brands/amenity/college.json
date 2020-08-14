@@ -1,0 +1,22 @@
+{
+  "amenity/college|Akademie Deutsche POP": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "college",
+      "brand": "Akademie Deutsche POP",
+      "brand:wikidata": "Q413887",
+      "brand:wikipedia": "de:Akademie Deutsche POP",
+      "name": "Akademie Deutsche POP"
+    }
+  },
+  "amenity/college|SAE Institute": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "college",
+      "brand": "SAE Institute",
+      "brand:wikidata": "Q201438",
+      "brand:wikipedia": "en:SAE Institute",
+      "name": "SAE Institute"
+    }
+  }
+}

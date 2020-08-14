@@ -1,6 +1,6 @@
 {
   "shop/camera|Jessops": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchTags": [
       "shop/electronics",
       "shop/photo"
@@ -10,6 +10,19 @@
       "brand:wikidata": "Q3191701",
       "brand:wikipedia": "en:Jessops",
       "name": "Jessops",
+      "shop": "camera"
+    }
+  },
+  "shop/camera|London Camera Exchange": {
+    "locationSet": {"include": ["gb"]},
+    "matchTags": [
+      "shop/electronics",
+      "shop/photo"
+    ],
+    "tags": {
+      "brand": "London Camera Exchange",
+      "brand:wikidata": "Q84156395",
+      "name": "London Camera Exchange",
       "shop": "camera"
     }
   }

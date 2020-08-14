@@ -1,6 +1,26 @@
 {
+  "shop/tyres|Alliance Tire Company": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Alliance",
+      "brand:wikidata": "Q420541",
+      "brand:wikipedia": "en:Alliance Tire Company Ltd",
+      "name": "Alliance Tire Company",
+      "shop": "tyres"
+    }
+  },
+  "shop/tyres|Apollo Tyres": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Apollo Tyres",
+      "brand:wikidata": "Q4780362",
+      "brand:wikipedia": "en:Apollo Tyres",
+      "name": "Apollo Tyres",
+      "shop": "tyres"
+    }
+  },
   "shop/tyres|Big O Tires": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "brand": "Big O Tires",
       "brand:wikidata": "Q4906085",
@@ -10,6 +30,7 @@
     }
   },
   "shop/tyres|Bridgestone": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Bridgestone",
       "brand:wikidata": "Q179433",
@@ -18,8 +39,28 @@
       "shop": "tyres"
     }
   },
+  "shop/tyres|Continental AG": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Continental AG",
+      "brand:wikidata": "Q163241",
+      "brand:wikipedia": "en:Continental AG",
+      "name": "Continental AG",
+      "shop": "tyres"
+    }
+  },
+  "shop/tyres|Cooper Tire & Rubber Company": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "brand": "Cooper Tire & Rubber Company",
+      "brand:wikidata": "Q1129847",
+      "brand:wikipedia": "en:Cooper Tire & Rubber Company",
+      "name": "Cooper Tire & Rubber Company",
+      "shop": "tyres"
+    }
+  },
   "shop/tyres|Discount Tire": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "brand": "Discount Tire",
       "brand:wikidata": "Q5281735",
@@ -28,8 +69,31 @@
       "shop": "tyres"
     }
   },
+  "shop/tyres|Eurotyre~(Belgium/Netherlands)": {
+    "locationSet": {"include": ["be", "nl"]},
+    "nomatch": ["shop/tyres|Eurotyre~(France)"],
+    "tags": {
+      "brand": "Eurotyre",
+      "brand:wikidata": "Q91309121",
+      "name": "Eurotyre",
+      "shop": "tyres"
+    }
+  },
+  "shop/tyres|Eurotyre~(France)": {
+    "locationSet": {"include": ["fr", "so"]},
+    "nomatch": [
+      "shop/tyres|Eurotyre~(Belgium/Netherlands)"
+    ],
+    "tags": {
+      "brand": "Eurotyre",
+      "brand:wikidata": "Q3060871",
+      "brand:wikipedia": "fr:Eurotyre",
+      "name": "Eurotyre",
+      "shop": "tyres"
+    }
+  },
   "shop/tyres|Express Oil Change & Tire Engineers": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "brand": "Express Oil Change & Tire Engineers",
       "brand:wikidata": "Q39057654",
@@ -39,7 +103,7 @@
     }
   },
   "shop/tyres|Les Schwab Tire Center": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["les schwab"],
     "tags": {
       "brand": "Les Schwab Tire Center",
@@ -50,6 +114,7 @@
     }
   },
   "shop/tyres|Michelin": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Michelin",
       "brand:wikidata": "Q151107",
@@ -59,7 +124,7 @@
     }
   },
   "shop/tyres|Pneuhage": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "Pneuhage",
       "brand:wikidata": "Q2099972",
@@ -69,7 +134,7 @@
     }
   },
   "shop/tyres|Tire Discounters": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "brand": "Tire Discounters",
       "brand:wikidata": "Q29093639",
@@ -79,7 +144,7 @@
     }
   },
   "shop/tyres|Tires Plus": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "brand": "Tires Plus",
       "brand:wikidata": "Q64015091",
@@ -88,11 +153,20 @@
     }
   },
   "shop/tyres|Vianor": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Vianor",
       "brand:wikidata": "Q10714920",
       "brand:wikipedia": "sv:Vianor",
       "name": "Vianor",
+      "shop": "tyres"
+    }
+  },
+  "shop/tyres|Колесо": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Колесо",
+      "name": "Колесо",
       "shop": "tyres"
     }
   }

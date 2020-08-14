@@ -1,5 +1,14 @@
 {
+  "amenity/public_bookcase|Boîte à livres": {
+    "locationSet": {"include": ["fx"]},
+    "tags": {
+      "amenity": "public_bookcase",
+      "brand": "Boîte à livres",
+      "name": "Boîte à livres"
+    }
+  },
   "amenity/public_bookcase|Little Free Library": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "public_bookcase",
       "brand": "Little Free Library",

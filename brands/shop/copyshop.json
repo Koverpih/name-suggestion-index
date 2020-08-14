@@ -1,6 +1,15 @@
 {
+  "shop/copyshop|FaxCopy": {
+    "locationSet": {"include": ["sk"]},
+    "tags": {
+      "brand": "FaxCopy",
+      "brand:wikidata": "Q90990574",
+      "name": "FaxCopy",
+      "shop": "copyshop"
+    }
+  },
   "shop/copyshop|FedEx Office": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "fedex office print and ship center"
     ],
@@ -14,6 +23,9 @@
     }
   },
   "shop/copyshop|Minuteman Press": {
+    "locationSet": {
+      "include": ["au", "gb", "us"]
+    },
     "tags": {
       "brand": "Minuteman Press",
       "brand:wikidata": "Q64866081",
@@ -21,15 +33,8 @@
       "shop": "copyshop"
     }
   },
-  "shop/copyshop|Photocopie": {
-    "tags": {
-      "brand": "Photocopie",
-      "name": "Photocopie",
-      "shop": "copyshop"
-    }
-  },
   "shop/copyshop|Sir Speedy": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchTags": ["amenity/post_office"],
     "tags": {
       "brand": "Sir Speedy",
@@ -39,17 +44,24 @@
       "shop": "copyshop"
     }
   },
-  "shop/copyshop|Xerox": {
-    "tags": {
-      "brand": "Xerox",
-      "name": "Xerox",
-      "shop": "copyshop"
-    }
-  },
   "shop/copyshop|Копирка": {
+    "locationSet": {"include": ["by", "ru"]},
     "tags": {
       "brand": "Копирка",
       "name": "Копирка",
+      "shop": "copyshop"
+    }
+  },
+  "shop/copyshop|アクセア": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "アクセア",
+      "brand:en": "Accea",
+      "brand:ja": "アクセア",
+      "brand:wikidata": "Q90043156",
+      "name": "アクセア",
+      "name:en": "Accea",
+      "name:ja": "アクセア",
       "shop": "copyshop"
     }
   }

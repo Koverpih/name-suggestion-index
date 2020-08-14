@@ -1,6 +1,8 @@
 {
   "amenity/restaurant|100 Montaditos": {
-    "countryCodes": ["es", "it", "pt"],
+    "locationSet": {
+      "include": ["es", "it", "pt"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "100 Montaditos",
@@ -11,7 +13,7 @@
     }
   },
   "amenity/restaurant|3 Brewers~(On)": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "3 Brasseurs",
@@ -24,7 +26,7 @@
     }
   },
   "amenity/restaurant|ASK Italian": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ASK Italian",
@@ -35,7 +37,7 @@
     }
   },
   "amenity/restaurant|Amici's East Coast Pizzeria": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Amici",
@@ -45,6 +47,7 @@
     }
   },
   "amenity/restaurant|Applebee's": {
+    "locationSet": {"include": ["001"]},
     "matchNames": [
       "applebees bar and grill",
       "applebees grill and bar",
@@ -61,7 +64,7 @@
     }
   },
   "amenity/restaurant|Arooga's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Arooga's",
@@ -72,14 +75,18 @@
     }
   },
   "amenity/restaurant|Au Bureau": {
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Au Bureau",
+      "cuisine": "french;american;european",
       "name": "Au Bureau"
     }
   },
   "amenity/restaurant|Autogrill": {
-    "countryCodes": ["at", "es", "fr", "it"],
+    "locationSet": {
+      "include": ["at", "es", "fr", "it"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Autogrill",
@@ -90,7 +97,7 @@
     }
   },
   "amenity/restaurant|BBB": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "alt_name": "Burgus Burger Bar",
       "alt_name:en": "Burgus Burger Bar",
@@ -104,7 +111,7 @@
     }
   },
   "amenity/restaurant|BJ's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "BJ's",
@@ -116,7 +123,7 @@
     }
   },
   "amenity/restaurant|Bella Italia": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Bella Italia",
@@ -127,14 +134,16 @@
     }
   },
   "amenity/restaurant|Benihana": {
-    "countryCodes": [
-      "aw",
-      "br",
-      "ca",
-      "pa",
-      "sv",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "aw",
+        "br",
+        "ca",
+        "pa",
+        "sv",
+        "us"
+      ]
+    },
     "matchNames": ["benihana of tokyo"],
     "tags": {
       "amenity": "restaurant",
@@ -146,7 +155,7 @@
     }
   },
   "amenity/restaurant|Bertucci's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Bertucci's",
@@ -157,6 +166,7 @@
     }
   },
   "amenity/restaurant|Big Boy": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Big Boy",
@@ -168,7 +178,7 @@
     }
   },
   "amenity/restaurant|Bill's": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchTags": ["amenity/bar", "amenity/pub"],
     "tags": {
       "amenity": "restaurant",
@@ -180,7 +190,7 @@
     }
   },
   "amenity/restaurant|Black": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Black Bar Burger",
@@ -194,7 +204,7 @@
     }
   },
   "amenity/restaurant|Black Angus": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Black Angus",
@@ -205,7 +215,7 @@
     }
   },
   "amenity/restaurant|Black Bear Diner": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Black Bear Diner",
@@ -216,13 +226,9 @@
     }
   },
   "amenity/restaurant|Blaze Pizza": {
-    "countryCodes": [
-      "bh",
-      "ca",
-      "kw",
-      "sa",
-      "us"
-    ],
+    "locationSet": {
+      "include": ["bh", "ca", "kw", "sa", "us"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Blaze Pizza",
@@ -233,7 +239,7 @@
     }
   },
   "amenity/restaurant|Bob Evans": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Bob Evans",
@@ -244,7 +250,7 @@
     }
   },
   "amenity/restaurant|Bonanza Steakhouse": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["bonanza"],
     "tags": {
       "amenity": "restaurant",
@@ -255,17 +261,19 @@
     }
   },
   "amenity/restaurant|Bonchon Chicken": {
-    "countryCodes": [
-      "bh",
-      "kh",
-      "kr",
-      "kw",
-      "my",
-      "ph",
-      "sg",
-      "th",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "bh",
+        "kh",
+        "kr",
+        "kw",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "us"
+      ]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Bonchon Chicken",
@@ -276,7 +284,7 @@
     }
   },
   "amenity/restaurant|Bonefish Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Bonefish Grill",
@@ -287,7 +295,7 @@
     }
   },
   "amenity/restaurant|Boston Pizza": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Boston Pizza",
@@ -298,7 +306,7 @@
     }
   },
   "amenity/restaurant|Bravo": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "nomatch": ["shop/supermarket|Bravo"],
     "tags": {
       "alt_name": "Bravo Cucina Italiana",
@@ -310,18 +318,19 @@
     }
   },
   "amenity/restaurant|Brewers Fayre": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchTags": ["amenity/pub"],
     "tags": {
       "amenity": "restaurant",
       "brand": "Brewers Fayre",
       "brand:wikidata": "Q4962678",
       "brand:wikipedia": "en:Brewers Fayre",
+      "cuisine": "british",
       "name": "Brewers Fayre"
     }
   },
   "amenity/restaurant|Brio": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "alt_name": "Brio Tuscan Grille",
       "amenity": "restaurant",
@@ -332,18 +341,20 @@
     }
   },
   "amenity/restaurant|Bubba Gump Shrimp Company": {
-    "countryCodes": [
-      "ca",
-      "co",
-      "gb",
-      "hk",
-      "id",
-      "jp",
-      "mp",
-      "mx",
-      "ph",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "ca",
+        "co",
+        "gb",
+        "hk",
+        "id",
+        "jp",
+        "mp",
+        "mx",
+        "ph",
+        "us"
+      ]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Bubba Gump Shrimp Company",
@@ -354,7 +365,7 @@
     }
   },
   "amenity/restaurant|Buca di Beppo": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Buca di Beppo",
@@ -365,7 +376,7 @@
     }
   },
   "amenity/restaurant|Bucking Bull": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Bucking Bull",
@@ -376,7 +387,7 @@
     }
   },
   "amenity/restaurant|Buffalo Grill": {
-    "countryCodes": ["es", "fr"],
+    "locationSet": {"include": ["es", "fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Buffalo Grill",
@@ -387,6 +398,7 @@
     }
   },
   "amenity/restaurant|Buffalo Wild Wings": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Buffalo Wild Wings",
@@ -397,7 +409,7 @@
     }
   },
   "amenity/restaurant|Buffalo Wings & Rings": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Buffalo Wings & Rings",
@@ -409,7 +421,7 @@
     }
   },
   "amenity/restaurant|Byron": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Byron",
@@ -420,7 +432,7 @@
     }
   },
   "amenity/restaurant|Cafe Rio": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Cafe Rio",
@@ -431,7 +443,7 @@
     }
   },
   "amenity/restaurant|Café Rouge": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Café Rouge",
@@ -442,6 +454,7 @@
     }
   },
   "amenity/restaurant|California Pizza Kitchen": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "California Pizza Kitchen",
@@ -452,7 +465,9 @@
     }
   },
   "amenity/restaurant|Campanile": {
-    "countryCodes": ["fr", "gb", "nl"],
+    "locationSet": {
+      "include": ["fr", "gb", "nl"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Campanile",
@@ -463,7 +478,7 @@
     }
   },
   "amenity/restaurant|Carluccio's": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Carluccio's",
@@ -474,7 +489,7 @@
     }
   },
   "amenity/restaurant|Carrabba's Italian Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Carrabba's Italian Grill",
@@ -485,7 +500,7 @@
     }
   },
   "amenity/restaurant|Cheddar's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Cheddar's",
@@ -497,7 +512,9 @@
     }
   },
   "amenity/restaurant|Cheeburger Cheeburger": {
-    "countryCodes": ["ca", "sa", "us"],
+    "locationSet": {
+      "include": ["ca", "sa", "us"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Cheeburger Cheeburger",
@@ -508,7 +525,7 @@
     }
   },
   "amenity/restaurant|Chevys": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Chevys Fresh Mex",
@@ -520,6 +537,7 @@
     }
   },
   "amenity/restaurant|Chili's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Chili's",
@@ -530,15 +548,8 @@
       "official_name": "Chili's Grill & Bar"
     }
   },
-  "amenity/restaurant|China Palace": {
-    "tags": {
-      "amenity": "restaurant",
-      "brand": "China Palace",
-      "name": "China Palace"
-    }
-  },
   "amenity/restaurant|Chiquito": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Chiquito",
@@ -548,8 +559,17 @@
       "name": "Chiquito"
     }
   },
+  "amenity/restaurant|Chopped Leaf": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Chopped Leaf",
+      "cuisine": "salad",
+      "name": "Chopped Leaf"
+    }
+  },
   "amenity/restaurant|Chuck E. Cheese's": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "matchNames": ["chuck e cheese"],
     "matchTags": ["leisure/amusement_arcade"],
     "tags": {
@@ -563,7 +583,7 @@
     }
   },
   "amenity/restaurant|Chuy's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Chuy's",
@@ -574,7 +594,7 @@
     }
   },
   "amenity/restaurant|Cici's Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Cici's Pizza",
@@ -585,7 +605,7 @@
     }
   },
   "amenity/restaurant|Claim Jumper": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Claim Jumper",
@@ -596,7 +616,7 @@
     }
   },
   "amenity/restaurant|Coast to Coast": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Coast to Coast",
@@ -606,8 +626,16 @@
       "name": "Coast to Coast"
     }
   },
+  "amenity/restaurant|Coop Restaurant": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Coop Restaurant",
+      "name": "Coop Restaurant"
+    }
+  },
   "amenity/restaurant|Copeland's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Copeland's",
@@ -618,7 +646,7 @@
     }
   },
   "amenity/restaurant|Cora~(Quebec)": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "nomatch": [
       "amenity/restaurant|Cora~(non-Quebec)",
       "shop/supermarket|Cora"
@@ -633,7 +661,7 @@
     }
   },
   "amenity/restaurant|Cora~(non-Quebec)": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "nomatch": [
       "amenity/restaurant|Cora~(Quebec)",
       "shop/supermarket|Cora"
@@ -648,7 +676,7 @@
     }
   },
   "amenity/restaurant|Cosmo": {
-    "countryCodes": ["gb", "ie"],
+    "locationSet": {"include": ["gb", "ie"]},
     "nomatch": ["amenity/fuel|Cosmo"],
     "tags": {
       "amenity": "restaurant",
@@ -660,7 +688,7 @@
     }
   },
   "amenity/restaurant|Country Pride": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["country pride restaurant"],
     "tags": {
       "amenity": "restaurant",
@@ -670,8 +698,18 @@
       "name": "Country Pride"
     }
   },
+  "amenity/restaurant|Country Waffles": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Country Waffles",
+      "brand:wikidata": "Q86151490",
+      "cuisine": "breakfast",
+      "name": "Country Waffles"
+    }
+  },
   "amenity/restaurant|Courtepaille": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Courtepaille",
@@ -682,7 +720,7 @@
     }
   },
   "amenity/restaurant|Cracker Barrel": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "nomatch": ["shop/gift|Cracker Barrel"],
     "tags": {
       "amenity": "restaurant",
@@ -695,7 +733,7 @@
     }
   },
   "amenity/restaurant|Côte Brasserie": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Côte Brasserie",
@@ -706,7 +744,7 @@
     }
   },
   "amenity/restaurant|Dave & Buster's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchTags": ["leisure/amusement_arcade"],
     "tags": {
       "amenity": "restaurant",
@@ -719,6 +757,7 @@
     }
   },
   "amenity/restaurant|Denny's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Denny's",
@@ -729,7 +768,7 @@
     }
   },
   "amenity/restaurant|Dickey's Barbecue Pit": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["dickeys barbecue"],
     "tags": {
       "amenity": "restaurant",
@@ -741,22 +780,24 @@
     }
   },
   "amenity/restaurant|Din Tai Fung": {
-    "countryCodes": [
-      "ae",
-      "au",
-      "gb",
-      "hk",
-      "id",
-      "jp",
-      "kr",
-      "mo",
-      "my",
-      "ph",
-      "sg",
-      "th",
-      "tw",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "ae",
+        "au",
+        "gb",
+        "hk",
+        "id",
+        "jp",
+        "kr",
+        "mo",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "tw",
+        "us"
+      ]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Din Tai Fung",
@@ -767,8 +808,16 @@
       "name:zh": "鼎泰丰"
     }
   },
+  "amenity/restaurant|Don Camillo": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Don Camillo",
+      "name": "Don Camillo"
+    }
+  },
   "amenity/restaurant|Donatos Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["donatos"],
     "tags": {
       "amenity": "restaurant",
@@ -781,7 +830,7 @@
     }
   },
   "amenity/restaurant|East Side Mario's": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "East Side Mario's",
@@ -792,7 +841,7 @@
     }
   },
   "amenity/restaurant|Eat'n Park": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Eat'n Park",
@@ -803,7 +852,7 @@
     }
   },
   "amenity/restaurant|Elephant Bar": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Elephant Bar",
@@ -814,7 +863,7 @@
     }
   },
   "amenity/restaurant|Famous Dave's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["famous daves bbq"],
     "tags": {
       "amenity": "restaurant",
@@ -825,8 +874,19 @@
       "name": "Famous Dave's"
     }
   },
+  "amenity/restaurant|Fatz": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Fatz",
+      "brand:wikidata": "Q5424504",
+      "brand:wikipedia": "en:Fatz",
+      "cuisine": "american",
+      "name": "Fatz"
+    }
+  },
   "amenity/restaurant|Fernandez": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Fernandez",
@@ -835,7 +895,7 @@
     }
   },
   "amenity/restaurant|First Watch": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "First Watch",
@@ -846,7 +906,7 @@
     }
   },
   "amenity/restaurant|Flunch": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Flunch",
@@ -857,7 +917,7 @@
     }
   },
   "amenity/restaurant|Foster's Hollywood": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Foster's Hollywood",
@@ -868,7 +928,7 @@
     }
   },
   "amenity/restaurant|Frankie & Benny's": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Frankie & Benny's",
@@ -879,7 +939,7 @@
     }
   },
   "amenity/restaurant|Freshii": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Freshii",
@@ -890,7 +950,7 @@
     }
   },
   "amenity/restaurant|Friendly's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Friendly's",
@@ -901,7 +961,7 @@
     }
   },
   "amenity/restaurant|Frisch's Big Boy": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Frisch's Big Boy",
@@ -913,6 +973,7 @@
     }
   },
   "amenity/restaurant|Fuddruckers": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Fuddruckers",
@@ -923,7 +984,7 @@
     }
   },
   "amenity/restaurant|Gatti's Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Gatti's Pizza",
@@ -934,7 +995,7 @@
     }
   },
   "amenity/restaurant|Giordano's Pizzeria": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Giordano's Pizzeria",
@@ -945,7 +1006,7 @@
     }
   },
   "amenity/restaurant|Godfather's Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Godfather's Pizza",
@@ -956,7 +1017,7 @@
     }
   },
   "amenity/restaurant|Golden Corral": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "golden corral buffet",
       "golden corral buffet and grill"
@@ -971,7 +1032,9 @@
     }
   },
   "amenity/restaurant|Gourmet Burger Kitchen": {
-    "countryCodes": ["gb", "gr", "ie"],
+    "locationSet": {
+      "include": ["gb", "gr", "ie"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Gourmet Burger Kitchen",
@@ -983,7 +1046,7 @@
     }
   },
   "amenity/restaurant|Grotto Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Grotto Pizza",
@@ -994,7 +1057,7 @@
     }
   },
   "amenity/restaurant|Gusto~(United Kingdom)": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Gusto",
@@ -1004,7 +1067,9 @@
     }
   },
   "amenity/restaurant|Guzman y Gomez": {
-    "countryCodes": ["au", "jp", "sg"],
+    "locationSet": {
+      "include": ["au", "jp", "sg"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Guzman y Gomez",
@@ -1015,18 +1080,21 @@
     }
   },
   "amenity/restaurant|Handmade Burger Co.": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchNames": ["handmade burger company"],
     "tags": {
       "amenity": "restaurant",
       "brand": "Handmade Burger Co.",
       "brand:wikidata": "Q56154673",
+      "brand:wikipedia": "en:Handmade Burger Co",
       "cuisine": "burger",
       "name": "Handmade Burger Co."
     }
   },
   "amenity/restaurant|Hans im Glück": {
-    "countryCodes": ["at", "ch", "de", "sg"],
+    "locationSet": {
+      "include": ["at", "ch", "de", "sg"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Hans im Glück",
@@ -1037,7 +1105,7 @@
     }
   },
   "amenity/restaurant|Happy's Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Happy's Pizza",
@@ -1048,6 +1116,7 @@
     }
   },
   "amenity/restaurant|Hard Rock Cafe": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Hard Rock Cafe",
@@ -1058,7 +1127,7 @@
     }
   },
   "amenity/restaurant|Harvester": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchTags": ["amenity/pub"],
     "tags": {
       "amenity": "restaurant",
@@ -1070,7 +1139,7 @@
     }
   },
   "amenity/restaurant|Hippopotamus": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Hippopotamus",
@@ -1081,7 +1150,7 @@
     }
   },
   "amenity/restaurant|Hog's Australia's Steakhouse": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Hog's Australia's Steakhouse",
@@ -1092,6 +1161,7 @@
     }
   },
   "amenity/restaurant|Hooters": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Hooters",
@@ -1102,6 +1172,7 @@
     }
   },
   "amenity/restaurant|House of Blues": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "House of Blues",
@@ -1112,7 +1183,7 @@
     }
   },
   "amenity/restaurant|Huddle House": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Huddle House",
@@ -1123,7 +1194,7 @@
     }
   },
   "amenity/restaurant|Husky House": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "nomatch": [
       "amenity/fuel|Husky",
       "shop/convenience|Husky"
@@ -1138,6 +1209,7 @@
     }
   },
   "amenity/restaurant|IHOP": {
+    "locationSet": {"include": ["001"]},
     "matchNames": [
       "international house of pancakes"
     ],
@@ -1151,7 +1223,7 @@
     }
   },
   "amenity/restaurant|IL Патио": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "IL Патио",
@@ -1161,8 +1233,16 @@
       "name": "IL Патио"
     }
   },
+  "amenity/restaurant|Indian Palace": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Indian Palace",
+      "name": "Indian Palace"
+    }
+  },
   "amenity/restaurant|Iron Skillet": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["iron skillet restaurant"],
     "tags": {
       "amenity": "restaurant",
@@ -1172,15 +1252,8 @@
       "name": "Iron Skillet"
     }
   },
-  "amenity/restaurant|Italia": {
-    "tags": {
-      "amenity": "restaurant",
-      "brand": "Italia",
-      "name": "Italia"
-    }
-  },
   "amenity/restaurant|Jack Astor's": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Jack Astor's",
@@ -1191,7 +1264,7 @@
     }
   },
   "amenity/restaurant|Jason's Deli": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Jason's Deli",
@@ -1202,7 +1275,7 @@
     }
   },
   "amenity/restaurant|Jet's Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Jet's Pizza",
@@ -1213,7 +1286,7 @@
     }
   },
   "amenity/restaurant|Jinya Ramen Bar": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Jinya Ramen Bar",
@@ -1224,7 +1297,7 @@
     }
   },
   "amenity/restaurant|Joe's Crab Shack": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Joe's Crab Shack",
@@ -1235,7 +1308,7 @@
     }
   },
   "amenity/restaurant|Johnny Carino's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["carinios"],
     "tags": {
       "amenity": "restaurant",
@@ -1247,6 +1320,7 @@
     }
   },
   "amenity/restaurant|Johnny Rockets": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["johnny rocket"],
     "tags": {
       "amenity": "restaurant",
@@ -1258,7 +1332,7 @@
     }
   },
   "amenity/restaurant|Kelsey's": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Kelsey's",
@@ -1269,7 +1343,7 @@
     }
   },
   "amenity/restaurant|Kona Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Kona Grill",
@@ -1280,6 +1354,7 @@
     }
   },
   "amenity/restaurant|L'Atelier": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "L'Atelier",
@@ -1288,15 +1363,17 @@
     }
   },
   "amenity/restaurant|L'Osteria": {
-    "countryCodes": [
-      "at",
-      "ch",
-      "cz",
-      "de",
-      "fr",
-      "gb",
-      "nl"
-    ],
+    "locationSet": {
+      "include": [
+        "at",
+        "ch",
+        "cz",
+        "de",
+        "fr",
+        "gb",
+        "nl"
+      ]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "L'Osteria",
@@ -1307,7 +1384,7 @@
     }
   },
   "amenity/restaurant|La Boucherie": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "La Boucherie",
@@ -1318,7 +1395,7 @@
     }
   },
   "amenity/restaurant|La Cage": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "matchNames": ["la cage aux sports"],
     "tags": {
       "amenity": "restaurant",
@@ -1330,7 +1407,7 @@
     }
   },
   "amenity/restaurant|LaRosa's Pizzeria": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "LaRosa's Pizzeria",
@@ -1342,18 +1419,18 @@
     }
   },
   "amenity/restaurant|Ledo Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Ledo Pizza",
       "brand:wikidata": "Q6512734",
       "brand:wikipedia": "en:Ledo Pizza",
-      "cuisine": "pizza",
+      "cuisine": "pizza;pasta",
       "name": "Ledo Pizza"
     }
   },
   "amenity/restaurant|Legal Sea Foods": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Legal Sea Foods",
@@ -1364,7 +1441,9 @@
     }
   },
   "amenity/restaurant|Les 3 Brasseurs~(Qc,Br,Fr)": {
-    "countryCodes": ["br", "ca", "fr"],
+    "locationSet": {
+      "include": ["br", "ca", "fr"]
+    },
     "matchNames": ["3 brasseurs"],
     "tags": {
       "amenity": "restaurant",
@@ -1378,7 +1457,7 @@
     }
   },
   "amenity/restaurant|Logan's Roadhouse": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Logan's Roadhouse",
@@ -1389,7 +1468,7 @@
     }
   },
   "amenity/restaurant|LongHorn Steakhouse": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "LongHorn Steakhouse",
@@ -1400,7 +1479,7 @@
     }
   },
   "amenity/restaurant|Lou Malnati's Pizzeria": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Lou Malnati's Pizzeria",
@@ -1411,6 +1490,7 @@
     }
   },
   "amenity/restaurant|Loving Hut": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Loving Hut",
@@ -1423,7 +1503,7 @@
     }
   },
   "amenity/restaurant|Luby's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Luby's",
@@ -1434,7 +1514,7 @@
     }
   },
   "amenity/restaurant|Léon de Bruxelles": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Léon de Bruxelles",
@@ -1445,7 +1525,7 @@
     }
   },
   "amenity/restaurant|MK Restaurants": {
-    "countryCodes": ["th"],
+    "locationSet": {"include": ["th"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "MK Restaurants",
@@ -1455,7 +1535,7 @@
     }
   },
   "amenity/restaurant|Mad Mex Fresh Mexican": {
-    "countryCodes": ["au", "nz"],
+    "locationSet": {"include": ["au", "nz"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Mad Mex Fresh Mexican Grill",
@@ -1465,8 +1545,16 @@
       "name": "Mad Mex Fresh Mexican Grill"
     }
   },
+  "amenity/restaurant|Maquis Restaurant": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Maquis Restaurant",
+      "name": "Maquis Restaurant"
+    }
+  },
   "amenity/restaurant|Marco's Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Marco's Pizza",
@@ -1477,7 +1565,7 @@
     }
   },
   "amenity/restaurant|Marie Callender's": {
-    "countryCodes": ["mx", "us"],
+    "locationSet": {"include": ["mx", "us"]},
     "matchNames": [
       "marie calendar",
       "marie calendar's",
@@ -1493,7 +1581,7 @@
     }
   },
   "amenity/restaurant|Max's Restaurant": {
-    "countryCodes": ["ph"],
+    "locationSet": {"include": ["ph"]},
     "matchNames": ["max's"],
     "tags": {
       "amenity": "restaurant",
@@ -1505,7 +1593,7 @@
     }
   },
   "amenity/restaurant|McAlister's Deli": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "McAlister's Deli",
@@ -1516,7 +1604,7 @@
     }
   },
   "amenity/restaurant|McCormick & Schmick's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "mccormick and schmick",
       "mccormick and schmicks grill"
@@ -1531,7 +1619,7 @@
     }
   },
   "amenity/restaurant|Mellow Mushroom": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Mellow Mushroom",
@@ -1542,6 +1630,7 @@
     }
   },
   "amenity/restaurant|Migros Restaurant": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Migros Restaurant",
@@ -1550,7 +1639,7 @@
     }
   },
   "amenity/restaurant|Mikes": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Mikes",
@@ -1560,8 +1649,18 @@
       "name": "Mikes"
     }
   },
+  "amenity/restaurant|Miller & Carter": {
+    "locationSet": {"include": ["gb"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Miller & Carter",
+      "brand:wikidata": "Q87067401",
+      "cuisine": "steak",
+      "name": "Miller & Carter"
+    }
+  },
   "amenity/restaurant|Mimi's Cafe": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Mimi's Cafe",
@@ -1572,7 +1671,7 @@
     }
   },
   "amenity/restaurant|Montana's": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Montana's",
@@ -1584,7 +1683,7 @@
     }
   },
   "amenity/restaurant|Morton's The Steakhouse": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["mortons"],
     "tags": {
       "amenity": "restaurant",
@@ -1596,7 +1695,7 @@
     }
   },
   "amenity/restaurant|Moses": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Moses",
@@ -1610,7 +1709,7 @@
     }
   },
   "amenity/restaurant|Mountain Mike's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "alt_name": "Mountain Mike's Pizza",
       "amenity": "restaurant",
@@ -1623,7 +1722,7 @@
     }
   },
   "amenity/restaurant|Mr. Greek": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Mr. Greek",
@@ -1634,6 +1733,7 @@
     }
   },
   "amenity/restaurant|Nando's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Nando's",
@@ -1644,7 +1744,7 @@
     }
   },
   "amenity/restaurant|Noodles & Company": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "noodles and co",
       "noodles co",
@@ -1660,7 +1760,7 @@
     }
   },
   "amenity/restaurant|Norky's": {
-    "countryCodes": ["pe"],
+    "locationSet": {"include": ["pe"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Norky's",
@@ -1669,7 +1769,7 @@
     }
   },
   "amenity/restaurant|O'Charley's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "O'Charley's",
@@ -1680,7 +1780,7 @@
     }
   },
   "amenity/restaurant|Ocean Basket": {
-    "countryCodes": ["za"],
+    "locationSet": {"include": ["za"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Ocean Basket",
@@ -1690,7 +1790,7 @@
     }
   },
   "amenity/restaurant|Old Chicago": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Old Chicago",
@@ -1701,7 +1801,7 @@
     }
   },
   "amenity/restaurant|Old Country Buffet": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Old Country Buffet",
@@ -1711,7 +1811,7 @@
     }
   },
   "amenity/restaurant|Old Wild West": {
-    "countryCodes": ["it"],
+    "locationSet": {"include": ["it"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Old Wild West",
@@ -1722,6 +1822,7 @@
     }
   },
   "amenity/restaurant|Olive Garden": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Olive Garden",
@@ -1732,7 +1833,7 @@
     }
   },
   "amenity/restaurant|On The Border": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "On The Border",
@@ -1743,7 +1844,17 @@
       "official_name": "On The Border Mexican Grill & Cantina"
     }
   },
+  "amenity/restaurant|Osmow's": {
+    "locationSet": {"include": ["ca"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Osmow's",
+      "cuisine": "mediterranean",
+      "name": "Osmow's"
+    }
+  },
   "amenity/restaurant|Outback Steakhouse": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Outback Steakhouse",
@@ -1754,7 +1865,7 @@
     }
   },
   "amenity/restaurant|P.F. Chang's": {
-    "countryCodes": ["mx", "us"],
+    "locationSet": {"include": ["mx", "us"]},
     "matchNames": ["pf chang"],
     "tags": {
       "amenity": "restaurant",
@@ -1767,7 +1878,7 @@
     }
   },
   "amenity/restaurant|Papa Gino's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Papa Gino's",
@@ -1777,8 +1888,19 @@
       "name": "Papa Gino's"
     }
   },
+  "amenity/restaurant|PappaRich": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "PappaRich",
+      "brand:wikidata": "Q95721282",
+      "brand:wikipedia": "ms:PappaRich",
+      "cuisine": "malaysian",
+      "name": "PappaRich"
+    }
+  },
   "amenity/restaurant|Pardos Chicken": {
-    "countryCodes": ["pe"],
+    "locationSet": {"include": ["pe"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Pardos Chicken",
@@ -1789,7 +1911,7 @@
     }
   },
   "amenity/restaurant|Pei Wei": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["pei wei asian diner"],
     "tags": {
       "amenity": "restaurant",
@@ -1800,8 +1922,20 @@
       "name": "Pei Wei"
     }
   },
+  "amenity/restaurant|Pepper Lunch": {
+    "locationSet": {"include": ["001"]},
+    "matchNames": ["ペッパーランチ"],
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Pepper Lunch",
+      "brand:wikidata": "Q1016072",
+      "brand:wikipedia": "en:Pepper Lunch",
+      "cuisine": "steak",
+      "name": "Pepper Lunch"
+    }
+  },
   "amenity/restaurant|Perkins": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Perkins",
@@ -1813,7 +1947,7 @@
     }
   },
   "amenity/restaurant|Peter Pane": {
-    "countryCodes": ["at", "de"],
+    "locationSet": {"include": ["at", "de"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Peter Pane",
@@ -1823,7 +1957,7 @@
     }
   },
   "amenity/restaurant|Peter Piper Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Peter Piper Pizza",
@@ -1833,7 +1967,7 @@
     }
   },
   "amenity/restaurant|Phở 24": {
-    "countryCodes": ["vn"],
+    "locationSet": {"include": ["vn"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Phở 24",
@@ -1845,15 +1979,17 @@
     }
   },
   "amenity/restaurant|Phở Hòa": {
-    "countryCodes": [
-      "ca",
-      "id",
-      "kr",
-      "ms",
-      "ph",
-      "tw",
-      "us"
-    ],
+    "locationSet": {
+      "include": [
+        "ca",
+        "id",
+        "kr",
+        "ms",
+        "ph",
+        "tw",
+        "us"
+      ]
+    },
     "tags": {
       "alt_name": "Phở Hoà",
       "alt_name:en": "Pho Hoa",
@@ -1868,7 +2004,7 @@
     }
   },
   "amenity/restaurant|Pieology Pizzeria": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["pieology"],
     "tags": {
       "amenity": "restaurant",
@@ -1880,7 +2016,7 @@
     }
   },
   "amenity/restaurant|Pizza Delight": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Pizza Delight",
@@ -1891,7 +2027,7 @@
     }
   },
   "amenity/restaurant|Pizza Factory": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Pizza Factory",
@@ -1902,6 +2038,7 @@
     }
   },
   "amenity/restaurant|Pizza Hut": {
+    "locationSet": {"include": ["001"]},
     "nomatch": [
       "amenity/fast_food|Pizza Hut Express"
     ],
@@ -1914,8 +2051,20 @@
       "name": "Pizza Hut"
     }
   },
+  "amenity/restaurant|Pizza Paï": {
+    "locationSet": {"include": ["fr"]},
+    "nomatch": ["amenity/fast_food|Pizza Paï"],
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Pizza Paï",
+      "brand:wikidata": "Q3389501",
+      "brand:wikipedia": "fr:PizzaPai",
+      "cuisine": "pizza",
+      "name": "Pizza Paï"
+    }
+  },
   "amenity/restaurant|Pizza Ranch": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Pizza Ranch",
@@ -1925,7 +2074,17 @@
       "name": "Pizza Ranch"
     }
   },
+  "amenity/restaurant|Pizza Roma": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Pizza Roma",
+      "cuisine": "pizza",
+      "name": "Pizza Roma"
+    }
+  },
   "amenity/restaurant|PizzaExpress": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "PizzaExpress",
@@ -1936,7 +2095,7 @@
     }
   },
   "amenity/restaurant|Poivre Rouge": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Poivre Rouge",
@@ -1947,13 +2106,9 @@
     }
   },
   "amenity/restaurant|Ponderosa Steakhouse": {
-    "countryCodes": [
-      "ae",
-      "eg",
-      "qa",
-      "tw",
-      "us"
-    ],
+    "locationSet": {
+      "include": ["ae", "eg", "qa", "tw", "us"]
+    },
     "matchNames": ["ponderosa"],
     "tags": {
       "amenity": "restaurant",
@@ -1964,7 +2119,7 @@
     }
   },
   "amenity/restaurant|Prezzo": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Prezzo",
@@ -1975,6 +2130,7 @@
     }
   },
   "amenity/restaurant|Primavera": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Primavera",
@@ -1982,7 +2138,7 @@
     }
   },
   "amenity/restaurant|Quaker Steak & Lube": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Quaker Steak & Lube",
@@ -1993,7 +2149,7 @@
     }
   },
   "amenity/restaurant|Rainforest Cafe": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Rainforest Cafe",
@@ -2004,6 +2160,7 @@
     }
   },
   "amenity/restaurant|Red Lobster": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Red Lobster",
@@ -2014,7 +2171,7 @@
     }
   },
   "amenity/restaurant|Red Robin": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Red Robin",
@@ -2025,8 +2182,18 @@
       "official_name": "Red Robin Gourmet Burgers and Brews"
     }
   },
+  "amenity/restaurant|Ristorante Del Arte": {
+    "locationSet": {"include": ["fr"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Ristorante Del Arte",
+      "brand:wikidata": "Q89208262",
+      "cuisine": "italian",
+      "name": "restaurant"
+    }
+  },
   "amenity/restaurant|Romano's Macaroni Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Romano's Macaroni Grill",
@@ -2037,7 +2204,7 @@
     }
   },
   "amenity/restaurant|Round Table Pizza": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["round table"],
     "tags": {
       "amenity": "restaurant",
@@ -2048,7 +2215,16 @@
       "name": "Round Table Pizza"
     }
   },
+  "amenity/restaurant|Royal": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Royal",
+      "name": "Royal"
+    }
+  },
   "amenity/restaurant|Ruby Tuesday": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Ruby Tuesday",
@@ -2059,7 +2235,9 @@
     }
   },
   "amenity/restaurant|Ruth's Chris Steak House": {
-    "countryCodes": ["ca", "mx", "us"],
+    "locationSet": {
+      "include": ["ca", "mx", "us"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Ruth's Chris Steak House",
@@ -2070,7 +2248,7 @@
     }
   },
   "amenity/restaurant|Saltgrass Steak House": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["saltgrass"],
     "tags": {
       "amenity": "restaurant",
@@ -2082,7 +2260,7 @@
     }
   },
   "amenity/restaurant|Sausalitos": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "matchTags": ["amenity/bar"],
     "tags": {
       "amenity": "restaurant",
@@ -2094,7 +2272,7 @@
     }
   },
   "amenity/restaurant|Scores": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Scores",
@@ -2105,6 +2283,7 @@
     }
   },
   "amenity/restaurant|Shakey's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Shakey's",
@@ -2115,7 +2294,7 @@
     }
   },
   "amenity/restaurant|Shari's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Shari's",
@@ -2126,7 +2305,7 @@
     }
   },
   "amenity/restaurant|Shingle Inn": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Shingle Inn",
@@ -2137,7 +2316,7 @@
     }
   },
   "amenity/restaurant|Shoney's": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Shoney's",
@@ -2148,6 +2327,7 @@
     }
   },
   "amenity/restaurant|Sizzler": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Sizzler",
@@ -2158,7 +2338,7 @@
     }
   },
   "amenity/restaurant|Skyline Chili": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Skyline Chili",
@@ -2170,7 +2350,7 @@
     }
   },
   "amenity/restaurant|Smitty's": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Smitty's",
@@ -2181,7 +2361,7 @@
     }
   },
   "amenity/restaurant|Snappy Tomato Pizza": {
-    "countryCodes": ["gb", "us"],
+    "locationSet": {"include": ["gb", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Snappy Tomato Pizza",
@@ -2193,7 +2373,7 @@
     }
   },
   "amenity/restaurant|Sonny's BBQ": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Sonny's BBQ",
@@ -2204,7 +2384,7 @@
     }
   },
   "amenity/restaurant|Spudbar": {
-    "countryCodes": ["au"],
+    "locationSet": {"include": ["au"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Spudbar",
@@ -2215,7 +2395,7 @@
     }
   },
   "amenity/restaurant|Spur": {
-    "countryCodes": ["za"],
+    "locationSet": {"include": ["za"]},
     "matchNames": ["spur steak ranches"],
     "tags": {
       "amenity": "restaurant",
@@ -2227,7 +2407,7 @@
     }
   },
   "amenity/restaurant|St-Hubert": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "nomatch": [
       "amenity/fast_food|St-Hubert Express"
     ],
@@ -2241,7 +2421,7 @@
     }
   },
   "amenity/restaurant|St. Louis Bar & Grill": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "St. Louis Bar & Grill",
@@ -2251,7 +2431,7 @@
     }
   },
   "amenity/restaurant|Stoney River": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Stoney River",
@@ -2262,7 +2442,7 @@
     }
   },
   "amenity/restaurant|Sunset Grill": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Sunset Grill",
@@ -2273,7 +2453,7 @@
     }
   },
   "amenity/restaurant|Swiss Chalet": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Swiss Chalet",
@@ -2284,6 +2464,7 @@
     }
   },
   "amenity/restaurant|TGI Friday's": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "TGI Friday's",
@@ -2294,7 +2475,7 @@
     }
   },
   "amenity/restaurant|Ted's Montana Grill": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Ted's Montana Grill",
@@ -2305,7 +2486,7 @@
     }
   },
   "amenity/restaurant|Tempero Manero": {
-    "countryCodes": ["br"],
+    "locationSet": {"include": ["br"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Tempero Manero",
@@ -2314,7 +2495,7 @@
     }
   },
   "amenity/restaurant|Texas Roadhouse": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Texas Roadhouse",
@@ -2325,7 +2506,7 @@
     }
   },
   "amenity/restaurant|The Cheesecake Factory": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "alt_name": "Cheesecake Factory",
       "amenity": "restaurant",
@@ -2337,7 +2518,7 @@
     }
   },
   "amenity/restaurant|The Counter": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "The Counter",
@@ -2348,7 +2529,7 @@
     }
   },
   "amenity/restaurant|The Keg": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "matchNames": ["keg"],
     "tags": {
       "amenity": "restaurant",
@@ -2360,7 +2541,7 @@
     }
   },
   "amenity/restaurant|The Melting Pot": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "alt_name": "Melting Pot",
       "amenity": "restaurant",
@@ -2372,7 +2553,9 @@
     }
   },
   "amenity/restaurant|The Original Pancake House": {
-    "countryCodes": ["jp", "kr", "us"],
+    "locationSet": {
+      "include": ["jp", "kr", "us"]
+    },
     "matchNames": ["original pancake house"],
     "tags": {
       "amenity": "restaurant",
@@ -2383,8 +2566,19 @@
       "name": "The Original Pancake House"
     }
   },
+  "amenity/restaurant|Tijuana Flats": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Tijuana Flats",
+      "brand:wikidata": "Q7801833",
+      "brand:wikipedia": "en:Tijuana Flats",
+      "cuisine": "mexican",
+      "name": "Tijuana Flats"
+    }
+  },
   "amenity/restaurant|Tinseltown": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Tinseltown",
@@ -2393,7 +2587,7 @@
     }
   },
   "amenity/restaurant|Toby Carvery": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "matchTags": ["amenity/pub"],
     "tags": {
       "amenity": "restaurant",
@@ -2405,7 +2599,7 @@
     }
   },
   "amenity/restaurant|Toks": {
-    "countryCodes": ["mx"],
+    "locationSet": {"include": ["mx"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Toks",
@@ -2416,6 +2610,7 @@
     }
   },
   "amenity/restaurant|Tony Roma's": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["tony roma"],
     "tags": {
       "amenity": "restaurant",
@@ -2427,7 +2622,7 @@
     }
   },
   "amenity/restaurant|Topper's Pizza~(Canada)": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Topper's Pizza",
@@ -2438,7 +2633,7 @@
     }
   },
   "amenity/restaurant|Toppers Pizza~(USA)": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Toppers Pizza",
@@ -2449,6 +2644,7 @@
     }
   },
   "amenity/restaurant|Unos": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Unos",
@@ -2459,6 +2655,7 @@
     }
   },
   "amenity/restaurant|Vapiano": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Vapiano",
@@ -2468,8 +2665,16 @@
       "name": "Vapiano"
     }
   },
+  "amenity/restaurant|Victoria": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Victoria",
+      "name": "Victoria"
+    }
+  },
   "amenity/restaurant|Village Inn": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Village Inn",
@@ -2480,7 +2685,7 @@
     }
   },
   "amenity/restaurant|Vips~(Asia)": {
-    "countryCodes": ["cn", "kr"],
+    "locationSet": {"include": ["cn", "kr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Vips",
@@ -2491,7 +2696,7 @@
     }
   },
   "amenity/restaurant|Vips~(Mexico)": {
-    "countryCodes": ["mx"],
+    "locationSet": {"include": ["mx"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Vips",
@@ -2502,7 +2707,7 @@
     }
   },
   "amenity/restaurant|Vips~(Spain)": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Vips",
@@ -2512,7 +2717,7 @@
     }
   },
   "amenity/restaurant|Waffle House": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Waffle House",
@@ -2524,6 +2729,7 @@
     }
   },
   "amenity/restaurant|Wagamama": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Wagamama",
@@ -2534,6 +2740,7 @@
     }
   },
   "amenity/restaurant|Wasabi": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Wasabi",
@@ -2544,7 +2751,7 @@
     }
   },
   "amenity/restaurant|Western Sizzlin'": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["western sizzling"],
     "tags": {
       "amenity": "restaurant",
@@ -2556,7 +2763,7 @@
     }
   },
   "amenity/restaurant|White Spot": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "White Spot",
@@ -2567,7 +2774,7 @@
     }
   },
   "amenity/restaurant|Wild Wing": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Wild Wing",
@@ -2577,8 +2784,18 @@
       "name": "Wild Wing"
     }
   },
+  "amenity/restaurant|Wildwood": {
+    "locationSet": {"include": ["gb"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Wildwood",
+      "brand:wikidata": "Q85300869",
+      "cuisine": "grill;pasta;pizza",
+      "name": "Wildwood"
+    }
+  },
   "amenity/restaurant|YO! Sushi": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "YO! Sushi",
@@ -2589,7 +2806,7 @@
     }
   },
   "amenity/restaurant|Yard House": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "alcohol": "yes",
       "amenity": "restaurant",
@@ -2601,13 +2818,9 @@
     }
   },
   "amenity/restaurant|Zambrero": {
-    "countryCodes": [
-      "au",
-      "ie",
-      "nl",
-      "th",
-      "us"
-    ],
+    "locationSet": {
+      "include": ["au", "ie", "nl", "th", "us"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "Zambrero",
@@ -2618,7 +2831,7 @@
     }
   },
   "amenity/restaurant|Zizzi": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Zizzi",
@@ -2629,7 +2842,7 @@
     }
   },
   "amenity/restaurant|bd's Mongolian Grill": {
-    "countryCodes": ["mn", "us"],
+    "locationSet": {"include": ["mn", "us"]},
     "matchNames": ["bd mongolian grill"],
     "tags": {
       "amenity": "restaurant",
@@ -2640,13 +2853,9 @@
     }
   },
   "amenity/restaurant|dean&david": {
-    "countryCodes": [
-      "at",
-      "ch",
-      "de",
-      "lu",
-      "qa"
-    ],
+    "locationSet": {
+      "include": ["at", "ch", "de", "lu", "qa"]
+    },
     "tags": {
       "amenity": "restaurant",
       "brand": "dean&david",
@@ -2656,7 +2865,7 @@
     }
   },
   "amenity/restaurant|Евразия~(Russia)": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Евразия",
@@ -2666,22 +2875,22 @@
     }
   },
   "amenity/restaurant|Евразия~(Ukraine)": {
-    "countryCodes": ["ua"],
+    "locationSet": {"include": ["ua"]},
     "matchNames": ["євразія"],
     "tags": {
       "amenity": "restaurant",
       "brand": "Євразія",
       "brand:ru": "Евразия",
-      "brand:ua": "Євразія",
+      "brand:uk": "Євразія",
       "brand:wikidata": "Q66088028",
       "cuisine": "western;japanese",
       "name": "Євразія",
       "name:ru": "Евразия",
-      "name:ua": "Євразія"
+      "name:uk": "Євразія"
     }
   },
   "amenity/restaurant|Планета Суши": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Планета Суши",
@@ -2692,7 +2901,7 @@
     }
   },
   "amenity/restaurant|Тануки": {
-    "countryCodes": ["kz", "ru"],
+    "locationSet": {"include": ["kz", "ru"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Тануки",
@@ -2704,7 +2913,7 @@
     }
   },
   "amenity/restaurant|Якитория": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "Якитория",
@@ -2714,7 +2923,7 @@
     }
   },
   "amenity/restaurant|בורגר סאלון": {
-    "countryCodes": ["il"],
+    "locationSet": {"include": ["il"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "בורגר סאלון",
@@ -2728,7 +2937,7 @@
     }
   },
   "amenity/restaurant|あさくま": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "あさくま",
@@ -2743,7 +2952,7 @@
     }
   },
   "amenity/restaurant|いきなり！ステーキ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "いきなり！ステーキ",
@@ -2757,18 +2966,65 @@
       "name:ja": "いきなり！ステーキ"
     }
   },
+  "amenity/restaurant|からやま": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "からやま",
+      "brand:en": "Karayama",
+      "brand:ja": "からやま",
+      "brand:wikidata": "Q96145071",
+      "cuisine": "friture",
+      "name": "からやま",
+      "name:en": "Karayama",
+      "name:ja": "からやま"
+    }
+  },
+  "amenity/restaurant|ぎょうざの満洲": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "ぎょうざの満洲",
+      "brand:en": "Gyoza no Mansyu",
+      "brand:ja": "ぎょうざの満洲",
+      "brand:wikidata": "Q11265292",
+      "brand:wikipedia": "ja:ぎょうざの満洲",
+      "cuisine": "chinese;gyoza",
+      "name": "ぎょうざの満洲",
+      "name:en": "Gyoza no Mansyu",
+      "name:ja": "ぎょうざの満洲"
+    }
+  },
   "amenity/restaurant|しゃぶ葉": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "しゃぶ葉",
       "brand:ja": "しゃぶ葉",
+      "brand:wikidata": "Q87724264",
+      "cuisine": "buffet",
       "name": "しゃぶ葉",
+      "name:en": "Syabuyo",
       "name:ja": "しゃぶ葉"
     }
   },
+  "amenity/restaurant|すたみな太郎": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "すたみな太郎",
+      "brand:en": "Stamina Taro",
+      "brand:ja": "すたみな太郎",
+      "brand:wikidata": "Q11269733",
+      "brand:wikipedia": "ja:すたみな太郎",
+      "cuisine": "barbecue",
+      "name": "すたみな太郎",
+      "name:en": "Stamina Taro",
+      "name:ja": "すたみな太郎"
+    }
+  },
   "amenity/restaurant|とんでん": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "とんでん",
@@ -2782,7 +3038,7 @@
     }
   },
   "amenity/restaurant|はなまるうどん": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "はなまるうどん",
@@ -2797,7 +3053,7 @@
     }
   },
   "amenity/restaurant|びっくりドンキー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "びっくりドンキー",
@@ -2812,7 +3068,7 @@
     }
   },
   "amenity/restaurant|やよい軒": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "やよい軒",
@@ -2826,8 +3082,22 @@
       "name:ja": "やよい軒"
     }
   },
+  "amenity/restaurant|れんげ食堂": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "れんげ食堂",
+      "brand:en": "Renge Shokudo",
+      "brand:ja": "れんげ食堂",
+      "brand:wikidata": "Q92662226",
+      "cuisine": "japanese",
+      "name": "れんげ食堂",
+      "name:en": "Renge Shokudo",
+      "name:ja": "れんげ食堂"
+    }
+  },
   "amenity/restaurant|カプリチョーザ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "カプリチョーザ",
@@ -2842,12 +3112,14 @@
     }
   },
   "amenity/restaurant|ガスト": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
+    "nomatch": ["amenity/fast_food|Sガスト"],
     "tags": {
       "amenity": "restaurant",
       "brand": "ガスト",
       "brand:en": "Gusto",
       "brand:ja": "ガスト",
+      "brand:wikidata": "Q87724117",
       "cuisine": "western;japanese",
       "name": "ガスト",
       "name:en": "Gusto",
@@ -2855,7 +3127,7 @@
     }
   },
   "amenity/restaurant|ココス": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ココス",
@@ -2870,7 +3142,7 @@
     }
   },
   "amenity/restaurant|サイゼリヤ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "サイゼリヤ",
@@ -2884,8 +3156,23 @@
       "name:ja": "サイゼリヤ"
     }
   },
+  "amenity/restaurant|サガミ": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "サガミ",
+      "brand:en": "Sagami",
+      "brand:ja": "サガミ",
+      "brand:wikidata": "Q11304417",
+      "brand:wikipedia": "ja:サガミホールディングス",
+      "cuisine": "japanese",
+      "name": "サガミ",
+      "name:en": "Sagami",
+      "name:ja": "サガミ"
+    }
+  },
   "amenity/restaurant|ジョイフル": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ジョイフル",
@@ -2900,7 +3187,7 @@
     }
   },
   "amenity/restaurant|ジョナサン": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ジョナサン",
@@ -2915,7 +3202,7 @@
     }
   },
   "amenity/restaurant|ジョリーパスタ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ジョリーパスタ",
@@ -2929,23 +3216,36 @@
       "name:ja": "ジョリーパスタ"
     }
   },
+  "amenity/restaurant|ステーキのどん": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "ステーキのどん",
+      "brand:en": "Steak Don",
+      "brand:ja": "ステーキのどん",
+      "brand:wikidata": "Q92770815",
+      "cuisine": "steak",
+      "name": "ステーキのどん",
+      "name:en": "Steak Don",
+      "name:ja": "ステーキのどん"
+    }
+  },
   "amenity/restaurant|ステーキガスト": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ステーキガスト",
-      "brand:en": "Skylark",
+      "brand:en": "Steak Gusto",
       "brand:ja": "ステーキガスト",
-      "brand:wikidata": "Q11253593",
-      "brand:wikipedia": "ja:すかいらーく",
+      "brand:wikidata": "Q92599119",
       "cuisine": "steak",
       "name": "ステーキガスト",
-      "name:en": "Skylark",
+      "name:en": "Steak Gusto",
       "name:ja": "ステーキガスト"
     }
   },
   "amenity/restaurant|デニーズ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "デニーズ",
@@ -2959,8 +3259,23 @@
       "name:ja": "デニーズ"
     }
   },
+  "amenity/restaurant|トマト＆オニオン": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "トマト＆オニオン",
+      "brand:en": "Tomato & Onion",
+      "brand:ja": "トマト＆オニオン",
+      "brand:wikidata": "Q11321395",
+      "brand:wikipedia": "ja:トマトアンドアソシエイツ",
+      "cuisine": "steak_house",
+      "name": "トマト＆オニオン",
+      "name:en": "Tomato & Onion",
+      "name:ja": "トマト＆オニオン"
+    }
+  },
   "amenity/restaurant|バーミヤン": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "バーミヤン",
@@ -2975,7 +3290,7 @@
     }
   },
   "amenity/restaurant|ビッグボーイ": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ビッグボーイ",
@@ -2990,7 +3305,7 @@
     }
   },
   "amenity/restaurant|リンガーハット": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "リンガーハット",
@@ -3005,7 +3320,7 @@
     }
   },
   "amenity/restaurant|ロイヤルホスト": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "ロイヤルホスト",
@@ -3019,8 +3334,47 @@
       "name:ja": "ロイヤルホスト"
     }
   },
+  "amenity/restaurant|一風堂": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "町田商店",
+      "brand:en": "Machida Shouten",
+      "brand:ja": "町田商店",
+      "brand:wikidata": "Q88318612",
+      "cuisine": "noodle",
+      "name": "町田商店",
+      "name:en": "Machida Shouten",
+      "name:ja": "町田商店"
+    }
+  },
+  "amenity/restaurant|三媽臭臭鍋": {
+    "locationSet": {"include": ["tw"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "三媽臭臭鍋",
+      "cuisine": "taiwanese",
+      "name": "三媽臭臭鍋",
+      "name:zh": "三媽臭臭鍋"
+    }
+  },
+  "amenity/restaurant|东来顺": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "东来顺",
+      "brand:en": "Dong Lai Shun",
+      "brand:wikidata": "Q10870490",
+      "brand:wikipedia": "zh:东来顺",
+      "brand:zh": "东来顺",
+      "cuisine": "chinese",
+      "name": "东来顺",
+      "name:en": "Dong Lai Shun",
+      "name:zh": "东来顺"
+    }
+  },
   "amenity/restaurant|丸亀製麺": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "丸亀製麺",
@@ -3034,8 +3388,53 @@
       "name:ja": "丸亀製麺"
     }
   },
+  "amenity/restaurant|便宜坊": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "便宜坊",
+      "brand:en": "Bianyifang",
+      "brand:wikidata": "Q1049599",
+      "brand:wikipedia": "zh:便宜坊",
+      "brand:zh": "便宜坊",
+      "cuisine": "chinese",
+      "name": "便宜坊",
+      "name:en": "Bianyifang",
+      "name:zh": "便宜坊"
+    }
+  },
+  "amenity/restaurant|元気寿司": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "元気寿司",
+      "brand:en": "Genki Sushi",
+      "brand:ja": "元気寿司",
+      "brand:wikidata": "Q5533323",
+      "brand:wikipedia": "ja:元気寿司",
+      "cuisine": "sushi",
+      "name": "元気寿司",
+      "name:en": "Genki Sushi",
+      "name:ja": "元気寿司"
+    }
+  },
+  "amenity/restaurant|全聚德": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "全聚德",
+      "brand:en": "Quanjude",
+      "brand:wikidata": "Q3269017",
+      "brand:wikipedia": "zh:全聚德",
+      "brand:zh": "全聚德",
+      "cuisine": "chinese",
+      "name": "全聚德",
+      "name:en": "Quanjude",
+      "name:zh": "全聚德"
+    }
+  },
   "amenity/restaurant|八方雲集": {
-    "countryCodes": ["cn", "tw"],
+    "locationSet": {"include": ["cn", "tw"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "八方雲集",
@@ -3049,8 +3448,64 @@
       "name:zh": "八方雲集"
     }
   },
+  "amenity/restaurant|南京大牌档": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "南京大牌档",
+      "brand:wikidata": "Q48898937",
+      "brand:wikipedia": "zh:南京大牌档",
+      "cuisine": "chinese",
+      "name": "南京大牌档"
+    }
+  },
+  "amenity/restaurant|味千拉面": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "味千拉面",
+      "brand:en": "Ajisen Ramen",
+      "brand:ja": "味千ラーメン",
+      "brand:wikidata": "Q4699761",
+      "brand:wikipedia": "zh:味千拉面",
+      "cuisine": "ramen",
+      "name": "味千拉面",
+      "name:en": "Ajisen Ramen",
+      "name:ja": "味千ラーメン"
+    }
+  },
+  "amenity/restaurant|呷哺呷哺": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "呷哺呷哺",
+      "brand:en": "Xiabuxiabu",
+      "brand:wikidata": "Q10866036",
+      "brand:wikipedia": "zh:呷哺呷哺",
+      "brand:zh": "呷哺呷哺",
+      "cuisine": "chinese",
+      "name": "呷哺呷哺",
+      "name:en": "Xiabuxiabu",
+      "name:zh": "呷哺呷哺"
+    }
+  },
+  "amenity/restaurant|和幸": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "和幸",
+      "brand:en": "Wako",
+      "brand:ja": "和幸",
+      "brand:wikidata": "Q11417251",
+      "brand:wikipedia": "ja:和幸商事",
+      "cuisine": "japanese",
+      "name": "和幸",
+      "name:en": "Wako",
+      "name:ja": "和幸"
+    }
+  },
   "amenity/restaurant|和食さと": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["さと"],
     "tags": {
       "amenity": "restaurant",
@@ -3066,7 +3521,7 @@
     }
   },
   "amenity/restaurant|夢庵": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "夢庵",
@@ -3081,7 +3536,7 @@
     }
   },
   "amenity/restaurant|大戸屋": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "大戸屋",
@@ -3096,7 +3551,7 @@
     }
   },
   "amenity/restaurant|大阪王将": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "大阪王将",
@@ -3111,48 +3566,77 @@
     }
   },
   "amenity/restaurant|天下一品": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "天下一品",
       "brand:en": "Tenkaippin",
+      "brand:ja": "天下一品",
       "brand:wikidata": "Q11442172",
       "brand:wikipedia": "en:Tenkaippin",
       "cuisine": "ramen",
       "name": "天下一品",
-      "name:en": "Tenkaippin"
+      "name:en": "Tenkaippin",
+      "name:ja": "天下一品"
     }
   },
   "amenity/restaurant|安楽亭": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "安楽亭",
       "brand:en": "Anrakutei",
+      "brand:ja": "安楽亭",
       "brand:wikidata": "Q11450866",
       "brand:wikipedia": "ja:安楽亭",
       "cuisine": "barbecue",
       "name": "安楽亭",
-      "name:en": "Anrakutei"
+      "name:en": "Anrakutei",
+      "name:ja": "安楽亭"
+    }
+  },
+  "amenity/restaurant|弘爺漢堡": {
+    "locationSet": {"include": ["tw"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "弘爺漢堡",
+      "cuisine": "american;breakfast",
+      "name": "弘爺漢堡",
+      "name:en": "Hong Ya Hambuger"
+    }
+  },
+  "amenity/restaurant|必胜客": {
+    "locationSet": {"include": ["cn"]},
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "必胜客",
+      "brand:en": "Pizza Hut",
+      "brand:wikidata": "Q191615",
+      "brand:wikipedia": "en:Pizza Hut",
+      "brand:zh": "必胜客",
+      "cuisine": "pizza",
+      "name": "必胜客",
+      "name:en": "Pizza Hut",
+      "name:zh": "必胜客"
     }
   },
   "amenity/restaurant|木曽路": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "木曽路",
       "brand:en": "Kisoji",
-      "brand:jp": "木曽路",
+      "brand:ja": "木曽路",
       "brand:wikidata": "Q11518589",
       "brand:wikipedia": "ja:木曽路 (企業)",
       "cuisine": "japanese",
       "name": "木曽路",
       "name:en": "Kisoji",
-      "name:jp": "木曽路"
+      "name:ja": "木曽路"
     }
   },
   "amenity/restaurant|永和豆浆": {
-    "countryCodes": ["cn"],
+    "locationSet": {"include": ["cn"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "永和豆浆",
@@ -3163,7 +3647,7 @@
     }
   },
   "amenity/restaurant|海底捞火锅": {
-    "countryCodes": ["cn"],
+    "locationSet": {"include": ["cn"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "海底捞火锅",
@@ -3176,20 +3660,22 @@
     }
   },
   "amenity/restaurant|牛角": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "牛角",
       "brand:en": "Gyū-Kaku",
+      "brand:ja": "牛角",
       "brand:wikidata": "Q11349387",
       "brand:wikipedia": "en:Gyu-Kaku",
       "cuisine": "barbecue",
       "name": "牛角",
-      "name:en": "Gyū-Kaku"
+      "name:en": "Gyū-Kaku",
+      "name:ja": "牛角"
     }
   },
   "amenity/restaurant|華屋与兵衛": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "華屋与兵衛",
@@ -3204,7 +3690,7 @@
     }
   },
   "amenity/restaurant|餃子の王将": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "餃子の王将",
@@ -3219,14 +3705,17 @@
     }
   },
   "amenity/restaurant|麥味登": {
+    "locationSet": {"include": ["tw"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "麥味登",
-      "name": "麥味登"
+      "cuisine": "american;breakfast",
+      "name": "麥味登",
+      "name:en": "My Warn Day Care & Brunch"
     }
   },
   "amenity/restaurant|바다횟집": {
-    "countryCodes": ["kr"],
+    "locationSet": {"include": ["kr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "바다횟집",
@@ -3239,7 +3728,7 @@
     }
   },
   "amenity/restaurant|빕스": {
-    "countryCodes": ["kr"],
+    "locationSet": {"include": ["kr"]},
     "tags": {
       "amenity": "restaurant",
       "brand": "빕스",

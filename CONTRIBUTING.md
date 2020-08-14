@@ -22,7 +22,7 @@ to see which brands are missing Wikidata links, or have incomplete Wikipedia pag
 * `dist/names_keep.json` - subset of `names_all` we are keeping
 * `dist/wikidata.json` - cached brand data retrieved from Wikidata
 
-##### :white_check_mark: &nbsp; Do edit the files in `config/` and `brands/`:
+##### :white_check_mark: &nbsp; Do edit the files in `config/`, `brands/`, and `features/`:
 
 * `config/*`
   * `config/filters.json`- Regular expressions used to filter `names_all` into `names_keep` / `names_discard`
@@ -32,6 +32,7 @@ to see which brands are missing Wikidata links, or have incomplete Wikipedia pag
   * `brands/leisure/*.json`
   * `brands/shop/*.json`
   * `brands/tourism/*.json`
+* `features/*` - Source files for custom locations where brands are active
 
 &nbsp;
 
@@ -84,6 +85,7 @@ In `brands/amenity/fast_food.json`:
 
 ```js
   "amenity/fast_food|McDonald's": {         // Identifier like "key/value|name"
+    "locationSet": { "include": ["001"] },  // "locationSet" - defines where this brand is valid ("001" = worldwide)
     "tags": {                               // "tags" - OpenStreetMap tags that every McDonald's should have
       "amenity": "fast_food",               //   The OpenStreetMap tag for a "fast food" restaurant
       "brand": "McDonald's",                //   `brand` - Brand name in the local language (English)
@@ -99,7 +101,7 @@ There may also be entries for McDonald's in other languages!
 
 ```js
   "amenity/fast_food|マクドナルド": {         // Identifier like "key/value|name"
-    "countryCodes": ["jp"],                 // Optional `countryCodes` - array of countries where this entry is used
+    "locationSet": { "include": ["jp"] },   // "locationSet" - defines where this brand is valid ("jp" = Japan)
     "tags": {
       "amenity": "fast_food",
       "brand": "マクドナルド",                // `brand` - Brand name in the local language (Japanese)
@@ -117,42 +119,74 @@ There may also be entries for McDonald's in other languages!
 
 &nbsp;
 
+#### Required properties
+
+##### `locationSet`
+
+Each entry requires a `locationSet` to define where the entry is available.  You can define the `locationSet` as an Object with `include` and `exclude` properties:
+
+```js
+"locationSet": {
+  "include": [ Array of locations ],
+  "exclude": [ Array of locations ]
+}
+```
+
+The "locations" can be any of the following:
+* Strings recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme) or [UN M.49 numeric codes](https://en.wikipedia.org/wiki/UN_M49).<br/>_Example: `"de"`_<br/>Tip: The M49 code for the whole world is `"001"`.
+* Filenames for custom `.geojson` features. If you want to use a custom feature, you'll need to add these under the `features/` folder (see ["Features"](#features) below for more details). Each `Feature` must have an `id` property that ends in `.geojson`.<br/>_Example: `"de-hamburg.geojson"`_<br/>Tip: You can use [geojson.io](http://geojson.io) or other tools to create these.
+
+You can view examples and learn more about working with `locationSets` in the [@ideditor/location-conflation](https://github.com/ideditor/location-conflation/blob/master/README.md) project.
+
+⚡️ You can test locationSets on this interactive map:  https://ideditor.github.io/location-conflation/
+
+
+##### `tags`
+
+Each entry requires a `tags` value.  This is just an Object containing all the OpenStreetMap tags that should be set on the feature.
+
+
+&nbsp;
+
 #### Optional properties
 
 ##### `matchNames`/`matchTags`
 
-Sometimes a single brand will have different tags in OpenStreetMap.
+Brands are often tagged inconsistently in OpenStreetMap.  For example, some mappers write "International House of Pancakes" and others write "IHOP".
 
-For example, we prefer "Bed Bath & Beyond" to be tagged as `shop/houseware`.
-However we also need to recognize:
-- less-preferred name spellings like "Bed Bath and Beyond"
-- less-preferred tag pairs like `shop/department_store`
+This project includes a "fuzzy" matcher that can match alternate names and tags to a single entry in the name-suggestion-index.  The matcher keeps duplicate entries out of the index and is used in the iD editor to help suggest tag improvements.
 
-Rather than adding every possible alternative to the index, we can use
-`matchNames` and `matchTags` properties to ignore less-preferred alternatives.
+`matchNames` and `matchTags` properties can be used to list the less-preferred alternatives.
 
 ```js
-  "shop/houseware|Bed Bath & Beyond": {
-    "matchNames": ["bed bath and beyond"],     // also match these alternate spellings
-    "matchTags": ["shop/department_store"],    // also match these alternate taggings
+  "amenity/fast_food|Honey Baked Ham": {          // match this tag and name
+    "locationSet": { "include": ["us"] },
+    "matchNames": ["honey baked ham company"],    // also match these names
+    "matchTags": ["shop/butcher", "shop/deli"],   // also match these tags
     "tags": {
-      "brand": "Bed Bath & Beyond",
-      "brand:wikidata": "Q813782",
-      "brand:wikipedia": "en:Bed Bath & Beyond",
-      "name": "Bed Bath & Beyond",
-      "shop": "houseware"
+      "alt_name": "HoneyBaked Ham",
+      "amenity": "fast_food",
+      "brand": "Honey Baked Ham",
+      "brand:wikidata": "Q5893363",
+      "brand:wikipedia": "en:The Honey Baked Ham Company",
+      "cuisine": "american",
+      "name": "Honey Baked Ham",
+      "official_name": "The Honey Baked Ham Company"
     }
   },
 ```
 
-The matching code also has some useful automatic behaviors:
+:point_right: The matcher code also has some useful automatic behaviors...
 
-- Names are always matched case insensitive, with spaces and punctuation removed.
-You do not need to add `matchNames` properties for simple name variations.
+You don't need to add `matchNames` for:
+- Name variations in capitalization, punctuation, spacing (the middots common in Japanese names count as punctuation, so "V・ドラッグ" already matches "vドラッグ")
+- Name variations that already appear in the `name`, `alt_name`, `short_name`, `official_name` tags
+- Name variations in diacritic marks (e.g. "Häagen-Dazs" already matches "Haagen-Dazs")
+- Name variations in `&` vs. `and`
 
-- Some tags are assigned to _match groups_ (defined in `config/match_groups.json`).
-You don't need add `matchTags: ["shop/doityourself"]` to every "shop/hardware"
-and vice versa. Tags in a match group will match any other tags in the same match group.
+You don't need to add `matchTags` for:
+- Tags assigned to _match groups_ (defined in `config/match_groups.json`). For example, you don't need add `matchTags: ["shop/doityourself"]` to every "shop/hardware"
+and vice versa. _Tags in a match group will automatically match any other tags in the same match group._
 
 
 ##### `nomatch`
@@ -192,7 +226,7 @@ When using a tilde `~` name:
 
 ```js
   "shop/supermarket|Price Chopper~(Kansas City)": {
-    "countryCodes": ["us"],
+    "locationSet": { "include": ["us"] },
     "nomatch": [
       "shop/supermarket|Price Chopper~(New York)"
     ],
@@ -205,7 +239,7 @@ When using a tilde `~` name:
     }
   },
   "shop/supermarket|Price Chopper~(New York)": {
-    "countryCodes": ["us"],
+    "locationSet": { "include": ["us"] },
     "nomatch": [
       "shop/supermarket|Price Chopper~(Kansas City)"
     ],
@@ -218,6 +252,36 @@ When using a tilde `~` name:
     }
   },
 ```
+
+&nbsp;
+
+### Features
+
+These are optional `.geojson` files found under the `features/` folder. Each feature file must contain a single GeoJSON `Feature` for a region where a brand  is active. Only `Polygon` and `MultiPolygon` geometries are supported.
+
+Feature files look like this:
+
+```js
+{
+  "type": "Feature",
+  "id": "scotland.geojson",
+  "properties": {},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [...]
+  }
+}
+```
+
+Note: A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
+
+The build script will automatically generate an `id` property to match the filename.
+
+👉 GeoJSON Protips:
+* There are many online tools to create or modify `.geojson` files.
+* You can draw and edit GeoJSON polygons with [geojson.io](http://geojson.io) - (Editing MultiPolygons does not work in drawing mode, but you can edit the code directly).
+* You can simplify GeoJSON files with [mapshaper.org](https://mapshaper.org/)
+* [More than you ever wanted to know about GeoJSON](https://macwright.org/2015/03/23/geojson-second-bite.html)
 
 
 &nbsp;
@@ -276,6 +340,7 @@ For example, "Универмаг" is just a Russian word for "Department store":
 
 ```js
   "shop/department_store|Универмаг": {
+    "locationSet": { "include": ["ru"] }
     "tags": {
       "brand": "Универмаг",
       "name": "Универмаг",
@@ -305,6 +370,7 @@ In `brands/amenity/fast_food.json`:
 
 ```js
   "amenity/fast_food|Chipotle": {
+    "locationSet": { "include": ["001"] }
     "matchNames": ["chipotle mexican grill"],
     "tags": {
       "amenity": "fast_food",
@@ -346,6 +412,7 @@ We can add the `"brand:wikipedia"` and `"brand:wikidata"` tags.
 
 ```js
   "amenity/fast_food|Chipotle": {
+    "locationSet": { "include": ["001"] }
     "matchNames": ["chipotle mexican grill"],
     "tags": {
       "amenity": "fast_food",
@@ -377,6 +444,7 @@ In `brands/amenity/fast_food.json`:
 
 ```js
   "amenity/fast_food|かっぱ寿司": {
+    "locationSet": { "include": ["jp"] }
     "tags": {
       "amenity": "fast_food",
       "brand": "かっぱ寿司",
@@ -420,11 +488,11 @@ We can add:
 * `"name:ja"` and `"brand:ja"` tags to contain the local name "かっぱ寿司"
 * `"brand:wikipedia"` and `"brand:wikidata"` tags
 * `"cuisine": "sushi"` OpenStreetMap tag
-* `"countryCodes"` property, to indicate that this brand should only be used in Japan.
+* Also check the `"locationSet"` property to make sure it is accurate.
 
 ```js
   "amenity/fast_food|かっぱ寿司": {
-    "countryCodes": ["jp"],                // added
+    "locationSet": { "include": ["jp"] },
     "tags": {
       "amenity": "fast_food",
       "brand": "かっぱ寿司",
@@ -460,7 +528,7 @@ is a valuable way to get ahead of incorrect tagging.
 
 2. Add your new entry anywhere into the appropriate file under `brands/*` (the files will be sorted alphabetically later) and using the `"tags"` key add all appropriate OSM tags. Refer to [here](#card_file_box--about-the-brand-files) if you're not familiar with the syntax.
 
-3. If the brand only has locations in a known set of countries add the `"countryCodes": []` key to your new entry. This takes an array of [ISO 3166-1 alpha-2 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in lowercase (e.g. `["de", "at", "nl"]`).
+3. If the brand only has locations in a known set of countries add them to the `"locationSet"` property. This takes an array of [ISO 3166-1 alpha-2 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in lowercase (e.g. `["de", "at", "nl"]`).
 
 4. If instances of this brand are commonly mistagged add the `"matchNames": []` key to list these. Again, refer to [here](#card_file_box--about-the-brand-files) for syntax.
 
@@ -507,8 +575,12 @@ Tip: The browsable index at https://nsi.guide/ can show you where the Wikidata i
 
 #### Adding properties to Wikidata
 
-Social media accounts may be used to automatically fetch logos, what is used by iD
+Social media accounts may be used to automatically fetch logos, which are used by the iD Editor.
 <img width="800px" alt="Adding information on Wikidata" src="https://raw.githubusercontent.com/osmlab/name-suggestion-index/master/docs/img/wikidata.gif"/>
+
+Social media links are often displayed on the official web site of a brand, making them easy to find. When adding an entry for a social media account, it might be worth checking if that account has a "verified badge" which indicates a verified social media account, and if it does, this can be added via the "add qualifier" option, using "has quality" along with either  "verified account" or "verified badge".
+
+<img width="730px" alt="Checking Twitter references in Wikidata" src="https://raw.githubusercontent.com/osmlab/name-suggestion-index/master/docs/img/wikidata-applebees-twitter.png"/>
 
 #### Adding references to Wikidata
 

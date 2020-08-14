@@ -1,6 +1,17 @@
 {
+  "shop/health_food|Grape Tree": {
+    "locationSet": {"include": ["gb"]},
+    "tags": {
+      "brand": "Grape Tree",
+      "brand:wikidata": "Q87071497",
+      "name": "Grape Tree",
+      "shop": "health_food"
+    }
+  },
   "shop/health_food|Holland & Barrett": {
-    "countryCodes": ["gb", "ie", "nl"],
+    "locationSet": {
+      "include": ["gb", "ie", "nl"]
+    },
     "matchTags": [
       "shop/chemist",
       "shop/supermarket"

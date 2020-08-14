@@ -1,6 +1,6 @@
 {
   "amenity/prep_school|Huntington Learning Center": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["huntington"],
     "tags": {
       "amenity": "prep_school",
@@ -11,7 +11,7 @@
     }
   },
   "amenity/prep_school|KUMON~(Japan)": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["くもん", "公文"],
     "tags": {
       "amenity": "prep_school",
@@ -25,6 +25,7 @@
     }
   },
   "amenity/prep_school|Kumon~(International)": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["kumon learning center"],
     "tags": {
       "amenity": "prep_school",
@@ -35,7 +36,7 @@
     }
   },
   "amenity/prep_school|Mathnasium": {
-    "countryCodes": ["ca", "us"],
+    "locationSet": {"include": ["ca", "us"]},
     "matchNames": ["mathnasium learning center"],
     "matchTags": [
       "office/educational_institution"
@@ -49,7 +50,7 @@
     }
   },
   "amenity/prep_school|Russian School of Mathematics": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "rsm",
       "russian school of math"
@@ -62,8 +63,30 @@
       "name": "Russian School of Mathematics"
     }
   },
+  "amenity/prep_school|Schülerhilfe": {
+    "locationSet": {"include": ["at", "de"]},
+    "tags": {
+      "amenity": "prep_school",
+      "brand": "Schülerhilfe",
+      "brand:wikidata": "Q2259702",
+      "brand:wikipedia": "de:Schülerhilfe",
+      "name": "Schülerhilfe"
+    }
+  },
+  "amenity/prep_school|Studienkreis": {
+    "locationSet": {
+      "include": ["at", "ch", "de", "lu"]
+    },
+    "tags": {
+      "amenity": "prep_school",
+      "brand": "Studienkreis",
+      "brand:wikidata": "Q2358555",
+      "brand:wikipedia": "de:Studienkreis",
+      "name": "Studienkreis"
+    }
+  },
   "amenity/prep_school|Sylvan": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["sylvan learning"],
     "tags": {
       "alt_name": "Sylvan Learning Center",
@@ -75,7 +98,7 @@
     }
   },
   "amenity/prep_school|栄光ゼミナール": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["eikoh"],
     "tags": {
       "amenity": "prep_school",

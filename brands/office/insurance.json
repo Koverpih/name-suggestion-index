@@ -1,6 +1,6 @@
 {
   "office/insurance|A-MAX Auto Insurance": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "brand": "A-MAX Auto Insurance",
       "brand:wikidata": "Q75767609",
@@ -9,8 +9,18 @@
       "short_name": "A-MAX"
     }
   },
+  "office/insurance|A-Plan Insurance": {
+    "locationSet": {"include": ["gb"]},
+    "tags": {
+      "brand": "A-Plan Insurance",
+      "brand:wikidata": "Q87070013",
+      "insurance": "health",
+      "name": "A-Plan Insurance",
+      "office": "insurance"
+    }
+  },
   "office/insurance|AAA Insurance": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": [
       "american automobile association"
     ],
@@ -27,7 +37,7 @@
     }
   },
   "office/insurance|AOK": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "AOK",
       "brand:wikidata": "Q835141",
@@ -37,6 +47,7 @@
     }
   },
   "office/insurance|AXA": {
+    "locationSet": {"include": ["001"]},
     "nomatch": ["amenity/bank|AXA"],
     "tags": {
       "brand": "AXA",
@@ -47,6 +58,7 @@
     }
   },
   "office/insurance|Allianz": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Allianz",
       "brand:wikidata": "Q487292",
@@ -56,7 +68,7 @@
     }
   },
   "office/insurance|Allstate": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["allstate insurance"],
     "tags": {
       "brand": "Allstate",
@@ -67,7 +79,7 @@
     }
   },
   "office/insurance|American Family Insurance": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["american family", "amfam"],
     "tags": {
       "brand": "American Family Insurance",
@@ -78,7 +90,7 @@
     }
   },
   "office/insurance|Asepeyo": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "nomatch": ["amenity/clinic|Asepeyo"],
     "tags": {
       "brand": "Asepeyo",
@@ -89,7 +101,7 @@
     }
   },
   "office/insurance|Assu 2000": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "Assu 2000",
       "name": "Assu 2000",
@@ -97,7 +109,9 @@
     }
   },
   "office/insurance|Aviva": {
-    "countryCodes": ["fr", "ie", "pl"],
+    "locationSet": {
+      "include": ["fr", "ie", "pl"]
+    },
     "tags": {
       "brand": "Aviva",
       "brand:wikidata": "Q791179",
@@ -107,7 +121,7 @@
     }
   },
   "office/insurance|BGV": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "alt_name": "Badische Versicherungen",
       "brand": "BGV",
@@ -118,7 +132,7 @@
     }
   },
   "office/insurance|Banco do Brasil Seguridade": {
-    "countryCodes": ["br"],
+    "locationSet": {"include": ["br"]},
     "tags": {
       "brand": "Banco do Brasil Seguridade",
       "brand:wikidata": "Q18499520",
@@ -128,14 +142,20 @@
       "short_name": "BB Seguridade"
     }
   },
+  "office/insurance|Barmer": {
+    "locationSet": {"include": ["de"]},
+    "tags": {
+      "brand": "Barmer",
+      "brand:wikidata": "Q808361",
+      "brand:wikipedia": "de:Barmer Ersatzkasse",
+      "name": "Barmer",
+      "office": "insurance"
+    }
+  },
   "office/insurance|Bâloise": {
-    "countryCodes": [
-      "be",
-      "ch",
-      "de",
-      "li",
-      "lu"
-    ],
+    "locationSet": {
+      "include": ["be", "ch", "de", "li", "lu"]
+    },
     "tags": {
       "brand": "Bâloise",
       "brand:wikidata": "Q457912",
@@ -144,26 +164,58 @@
       "office": "insurance"
     }
   },
+  "office/insurance|CESCE": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "CESCE",
+      "brand:wikidata": "Q5737049",
+      "brand:wikipedia": "es:CESCE",
+      "name": "CESCE",
+      "office": "insurance",
+      "official_name": "Compañía Española de Seguros de Crédito a la Exportación"
+    }
+  },
   "office/insurance|CUK Ubezpieczenia": {
-    "countryCodes": ["pl"],
+    "locationSet": {"include": ["pl"]},
     "tags": {
       "brand": "CUK Ubezpieczenia",
       "name": "CUK Ubezpieczenia",
       "office": "insurance"
     }
   },
+  "office/insurance|Caser": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "Caser",
+      "brand:wikidata": "Q5756057",
+      "brand:wikipedia": "es:Caser",
+      "name": "Caser",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|Catalana Occidente": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "Catalana Occidente",
+      "brand:wikidata": "Q5936881",
+      "brand:wikipedia": "es:Catalana Occidente",
+      "name": "Catalana Occidente",
+      "office": "insurance"
+    }
+  },
   "office/insurance|DAK": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "DAK",
       "brand:wikidata": "Q1151671",
       "brand:wikipedia": "de:DAK-Gesundheit",
+      "insurance": "health",
       "name": "DAK",
       "office": "insurance"
     }
   },
   "office/insurance|DEVK": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "DEVK",
       "brand:wikidata": "Q1153049",
@@ -173,7 +225,7 @@
     }
   },
   "office/insurance|Debeka": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "Debeka",
       "brand:wikidata": "Q1181452",
@@ -182,8 +234,26 @@
       "office": "insurance"
     }
   },
+  "office/insurance|ENSA": {
+    "locationSet": {"include": ["ao"]},
+    "tags": {
+      "brand": "ENSA",
+      "brand:wikidata": "Q5323726",
+      "brand:wikipedia": "en:ENSA – Seguros de Angola",
+      "name": "ENSA",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|Ergo": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Ergo",
+      "name": "Ergo",
+      "office": "insurance"
+    }
+  },
   "office/insurance|Erie Insurance": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["erie"],
     "tags": {
       "brand": "Erie Insurance",
@@ -194,7 +264,7 @@
     }
   },
   "office/insurance|Farmers Insurance": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["farmers"],
     "tags": {
       "brand": "Farmers Insurance",
@@ -205,7 +275,7 @@
     }
   },
   "office/insurance|Foyer": {
-    "countryCodes": ["lu"],
+    "locationSet": {"include": ["lu"]},
     "tags": {
       "brand": "Foyer",
       "brand:wikidata": "Q1344573",
@@ -215,7 +285,7 @@
     }
   },
   "office/insurance|Fremap": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "tags": {
       "brand": "Fremap",
       "brand:wikidata": "Q5869232",
@@ -225,7 +295,7 @@
     }
   },
   "office/insurance|GEICO": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "brand": "GEICO",
       "brand:wikidata": "Q1498689",
@@ -235,7 +305,7 @@
     }
   },
   "office/insurance|GMF": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "GMF",
       "brand:wikidata": "Q3095296",
@@ -244,7 +314,16 @@
       "office": "insurance"
     }
   },
+  "office/insurance|Gan": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Gan",
+      "name": "Gan",
+      "office": "insurance"
+    }
+  },
   "office/insurance|Generali": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Generali",
       "brand:wikidata": "Q670482",
@@ -254,7 +333,7 @@
     }
   },
   "office/insurance|Grange Insurance": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["grange"],
     "tags": {
       "brand": "Grange Insurance",
@@ -265,6 +344,7 @@
     }
   },
   "office/insurance|Groupama": {
+    "locationSet": {"include": ["001"]},
     "matchTags": ["amenity/bank|groupama"],
     "tags": {
       "brand": "Groupama",
@@ -276,15 +356,17 @@
     }
   },
   "office/insurance|HUK-Coburg": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "HUK-Coburg",
+      "brand:wikidata": "Q1566111",
+      "brand:wikipedia": "de:HUK-Coburg",
       "name": "HUK-Coburg",
       "office": "insurance"
     }
   },
   "office/insurance|Harmonie Mutuelle": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "Harmonie Mutuelle",
       "brand:wikidata": "Q3127528",
@@ -294,14 +376,16 @@
     }
   },
   "office/insurance|Helvetia": {
-    "countryCodes": [
-      "at",
-      "ch",
-      "de",
-      "es",
-      "fr",
-      "it"
-    ],
+    "locationSet": {
+      "include": [
+        "at",
+        "ch",
+        "de",
+        "es",
+        "fr",
+        "it"
+      ]
+    },
     "tags": {
       "brand": "Helvetia",
       "brand:wikidata": "Q933766",
@@ -311,27 +395,58 @@
     }
   },
   "office/insurance|Knappschaft": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "Knappschaft",
       "brand:wikidata": "Q1313465",
       "brand:wikipedia": "de:Knappschaft (Krankenkasse)",
+      "insurance": "health",
       "name": "Knappschaft",
       "office": "insurance"
     }
   },
+  "office/insurance|Kooperativa": {
+    "locationSet": {"include": ["cz", "sk"]},
+    "tags": {
+      "brand": "Kooperativa",
+      "brand:wikidata": "Q16742113",
+      "name": "Kooperativa",
+      "office": "insurance"
+    }
+  },
   "office/insurance|LaLux": {
-    "countryCodes": ["lu"],
+    "locationSet": {"include": ["lu"]},
     "matchNames": ["la luxembourgeoise"],
     "tags": {
       "brand": "LaLux",
+      "brand:wikidata": "Q13103680",
       "brand:wikipedia": "lb:La Luxembourgeoise",
       "name": "LaLux",
       "office": "insurance"
     }
   },
+  "office/insurance|Liberty Seguros": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "Liberty Seguros",
+      "brand:wikidata": "Q3178929",
+      "brand:wikipedia": "es:Liberty Seguros",
+      "name": "Liberty Seguros",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|Línea Directa": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "Línea Directa",
+      "brand:wikidata": "Q325156",
+      "brand:wikipedia": "es:Línea Directa",
+      "name": "Línea Directa",
+      "office": "insurance"
+    }
+  },
   "office/insurance|MAAF": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "MAAF",
       "brand:wikidata": "Q3331028",
@@ -341,7 +456,7 @@
     }
   },
   "office/insurance|MMA": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "MMA",
       "brand:wikidata": "Q3331046",
@@ -352,7 +467,7 @@
     }
   },
   "office/insurance|Macif": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "Macif",
       "brand:wikidata": "Q3331021",
@@ -362,7 +477,7 @@
     }
   },
   "office/insurance|Maif": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "Maif",
       "brand:wikidata": "Q3331029",
@@ -373,6 +488,7 @@
     }
   },
   "office/insurance|Mapfre": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Mapfre",
       "brand:wikidata": "Q544532",
@@ -382,7 +498,7 @@
     }
   },
   "office/insurance|Matmut": {
-    "countryCodes": ["fr"],
+    "locationSet": {"include": ["fr"]},
     "tags": {
       "brand": "Matmut",
       "brand:wikidata": "Q3299185",
@@ -391,8 +507,18 @@
       "office": "insurance"
     }
   },
+  "office/insurance|Mutua Madrileña": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "Mutua Madrileña",
+      "brand:wikidata": "Q4888750",
+      "brand:wikipedia": "es:Mutua Madrileña",
+      "name": "Mutua Madrileña",
+      "office": "insurance"
+    }
+  },
   "office/insurance|Nationwide": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["nationwide insurance"],
     "nomatch": ["amenity/bank|Nationwide"],
     "tags": {
@@ -404,7 +530,7 @@
     }
   },
   "office/insurance|Ocaso": {
-    "countryCodes": ["es", "gb"],
+    "locationSet": {"include": ["es", "gb"]},
     "matchNames": [
       "ocaso seguros",
       "seguros ocaso"
@@ -418,7 +544,7 @@
     }
   },
   "office/insurance|PZU": {
-    "countryCodes": ["pl"],
+    "locationSet": {"include": ["pl"]},
     "tags": {
       "brand": "PZU",
       "brand:wikidata": "Q1807170",
@@ -427,8 +553,18 @@
       "office": "insurance"
     }
   },
+  "office/insurance|Pelayo": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "Pelayo",
+      "brand:wikidata": "Q16617805",
+      "brand:wikipedia": "es:Pelayo Seguros",
+      "name": "Pelayo",
+      "office": "insurance"
+    }
+  },
   "office/insurance|Progressive": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["progressive insurance"],
     "tags": {
       "brand": "Progressive",
@@ -439,7 +575,7 @@
     }
   },
   "office/insurance|Provinzial": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "Provinzial",
       "name": "Provinzial",
@@ -447,7 +583,9 @@
     }
   },
   "office/insurance|Reale": {
-    "countryCodes": ["cl", "es", "it"],
+    "locationSet": {
+      "include": ["cl", "es", "it"]
+    },
     "matchNames": [
       "reale chile",
       "reale immobili",
@@ -464,7 +602,7 @@
     }
   },
   "office/insurance|SV SparkassenVersicherung": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "SV SparkassenVersicherung",
       "brand:wikidata": "Q2208645",
@@ -473,8 +611,18 @@
       "office": "insurance"
     }
   },
+  "office/insurance|Santa Lucía": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "Santa Lucía",
+      "brand:wikidata": "Q6120481",
+      "brand:wikipedia": "es:Santa Lucía",
+      "name": "Santa Lucía",
+      "office": "insurance"
+    }
+  },
   "office/insurance|State Farm": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "matchNames": ["state farm insurance"],
     "tags": {
       "brand": "State Farm",
@@ -485,7 +633,7 @@
     }
   },
   "office/insurance|Swinton": {
-    "countryCodes": ["gb"],
+    "locationSet": {"include": ["gb"]},
     "tags": {
       "brand": "Swinton",
       "brand:wikidata": "Q7658785",
@@ -495,17 +643,18 @@
     }
   },
   "office/insurance|Techniker Krankenkasse": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "Techniker Krankenkasse",
       "brand:wikidata": "Q607531",
       "brand:wikipedia": "de:Techniker Krankenkasse",
+      "insurance": "health",
       "name": "Techniker Krankenkasse",
       "office": "insurance"
     }
   },
   "office/insurance|The Co-operators": {
-    "countryCodes": ["ca"],
+    "locationSet": {"include": ["ca"]},
     "tags": {
       "brand": "The Co-operators",
       "brand:wikidata": "Q3520320",
@@ -515,7 +664,7 @@
     }
   },
   "office/insurance|Tranquilidade": {
-    "countryCodes": ["pt"],
+    "locationSet": {"include": ["pt"]},
     "tags": {
       "brand": "Tranquilidade Seguros",
       "brand:wikidata": "Q7833457",
@@ -524,8 +673,34 @@
       "office": "insurance"
     }
   },
+  "office/insurance|Ubezpieczenia": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Ubezpieczenia",
+      "name": "Ubezpieczenia",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|Uniqa": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Uniqa",
+      "name": "Uniqa",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|VidaCaixa": {
+    "locationSet": {"include": ["es"]},
+    "tags": {
+      "brand": "VidaCaixa",
+      "brand:wikidata": "Q11705079",
+      "brand:wikipedia": "es:VidaCaixa",
+      "name": "VidaCaixa",
+      "office": "insurance"
+    }
+  },
   "office/insurance|Württembergische": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "brand": "Württembergische",
       "brand:wikidata": "Q1412465",
@@ -535,14 +710,19 @@
     }
   },
   "office/insurance|Wüstenrot": {
-    "countryCodes": ["at", "cz", "de", "sk"],
+    "locationSet": {
+      "include": ["at", "cz", "de", "sk"]
+    },
     "tags": {
       "brand": "Wüstenrot",
+      "brand:wikidata": "Q2597123",
+      "brand:wikipedia": "en:Wüstenrot-Gruppe",
       "name": "Wüstenrot",
       "office": "insurance"
     }
   },
   "office/insurance|Zurich": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "brand": "Zurich",
       "brand:wikidata": "Q230426",
@@ -552,15 +732,22 @@
     }
   },
   "office/insurance|Белгосстрах": {
-    "countryCodes": ["by"],
+    "locationSet": {"include": ["by"]},
     "tags": {
       "brand": "Белгосстрах",
+      "brand:be": "Белдзяржстрах",
+      "brand:en": "Belgosstrakh",
+      "brand:ru": "Белгосстрах",
+      "brand:wikidata": "Q64606273",
       "name": "Белгосстрах",
+      "name:be": "Белдзяржстрах",
+      "name:en": "Belgosstrakh",
+      "name:ru": "Белгосстрах",
       "office": "insurance"
     }
   },
   "office/insurance|Ингосстрах": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "brand": "Ингосстрах",
       "brand:en": "Ingosstrakh",
@@ -573,8 +760,16 @@
       "office": "insurance"
     }
   },
+  "office/insurance|Капитал Медицинское Страхование": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Капитал Медицинское Страхование",
+      "name": "Капитал Медицинское Страхование",
+      "office": "insurance"
+    }
+  },
   "office/insurance|РЕСО-Гарантия": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "brand": "РЕСО-Гарантия",
       "brand:en": "RESO-Guarantee",
@@ -587,8 +782,16 @@
       "office": "insurance"
     }
   },
+  "office/insurance|Ренессанс страхование": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "brand": "Ренессанс страхование",
+      "name": "Ренессанс страхование",
+      "office": "insurance"
+    }
+  },
   "office/insurance|Росгосстрах": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "brand": "Росгосстрах",
       "brand:wikidata": "Q4397745",
@@ -598,7 +801,7 @@
     }
   },
   "office/insurance|Согласие": {
-    "countryCodes": ["ru"],
+    "locationSet": {"include": ["ru"]},
     "tags": {
       "brand": "Согласие",
       "brand:en": "Soglasie",
@@ -612,7 +815,7 @@
     }
   },
   "office/insurance|بیمه ایران": {
-    "countryCodes": ["ir"],
+    "locationSet": {"include": ["ir"]},
     "tags": {
       "brand": "بیمه ایران",
       "brand:en": "Iran Insurance",
@@ -622,6 +825,63 @@
       "name": "بیمه ایران",
       "name:en": "Iran Insurance",
       "name:fa": "بیمه ایران",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|保険クリニック": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "保険クリニック",
+      "brand:en": "Hoken Clinic",
+      "brand:ja": "保険クリニック",
+      "brand:wikidata": "Q93904665",
+      "brand:wikipedia": "ja:保険クリニック",
+      "name": "保険クリニック",
+      "name:en": "Hoken Clinic",
+      "name:ja": "保険クリニック",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|日本生命": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "alt_name:en": "Nissay",
+      "brand": "日本生命",
+      "brand:en": "Nippon Life",
+      "brand:ja": "日本生命",
+      "brand:wikidata": "Q519611",
+      "brand:wikipedia": "ja:日本生命保険",
+      "name": "日本生命",
+      "name:en": "Nippon Life",
+      "name:ja": "日本生命",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|明治安田生命": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "明治安田生命",
+      "brand:en": "Meiji Yasuda Life",
+      "brand:ja": "明治安田生命",
+      "brand:wikidata": "Q174081",
+      "brand:wikipedia": "ja:明治安田生命保険",
+      "name": "明治安田生命",
+      "name:en": "Meiji Yasuda Life",
+      "name:ja": "明治安田生命",
+      "office": "insurance"
+    }
+  },
+  "office/insurance|第一生命": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "brand": "第一生命",
+      "brand:en": "Dai-ichi Life",
+      "brand:ja": "第一生命",
+      "brand:wikidata": "Q595475",
+      "brand:wikipedia": "ja:第一生命保険",
+      "name": "第一生命",
+      "name:en": "Dai-ichi Life",
+      "name:ja": "第一生命",
       "office": "insurance"
     }
   }

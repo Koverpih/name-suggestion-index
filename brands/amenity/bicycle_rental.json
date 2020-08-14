@@ -1,6 +1,25 @@
 {
+  "amenity/bicycle_rental|Biki": {
+    "locationSet": {"include": ["us"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "Biki",
+      "brand:wikidata": "Q98337927",
+      "name": "Biki"
+    }
+  },
+  "amenity/bicycle_rental|Bixi": {
+    "locationSet": {"include": ["ca"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "Bixi",
+      "brand:wikidata": "Q4919302",
+      "brand:wikipedia": "en:BIXI Montréal",
+      "name": "Bixi"
+    }
+  },
   "amenity/bicycle_rental|Call a Bike": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "amenity": "bicycle_rental",
       "brand": "Call a Bike",
@@ -10,14 +29,16 @@
     }
   },
   "amenity/bicycle_rental|Explore Bike Share": {
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "bicycle_rental",
       "brand": "Explore Bike Share",
+      "brand:wikidata": "Q86706492",
       "name": "Explore Bike Share"
     }
   },
   "amenity/bicycle_rental|Grid": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "tags": {
       "amenity": "bicycle_rental",
       "brand": "Grid",
@@ -25,8 +46,22 @@
       "name": "Grid"
     }
   },
+  "amenity/bicycle_rental|HELLO CYCLING": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "HELLO CYCLING",
+      "brand:en": "HELLO CYCLING",
+      "brand:ja": "ハローサイクリング",
+      "brand:wikidata": "Q91231927",
+      "fee": "yes",
+      "name": "HELLO CYCLING",
+      "name:en": "HELLO CYCLING",
+      "name:ja": "ハローサイクリング"
+    }
+  },
   "amenity/bicycle_rental|MiBici": {
-    "countryCodes": ["mx"],
+    "locationSet": {"include": ["mx"]},
     "tags": {
       "amenity": "bicycle_rental",
       "brand": "MiBici",
@@ -35,8 +70,28 @@
       "name": "MiBici"
     }
   },
+  "amenity/bicycle_rental|OV-fiets": {
+    "locationSet": {"include": ["nl"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "OV-fiets",
+      "brand:wikidata": "Q2629982",
+      "brand:wikipedia": "en:OV-fiets",
+      "name": "OV-fiets"
+    }
+  },
+  "amenity/bicycle_rental|SZ-Bike": {
+    "locationSet": {"include": ["de"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "SZ-Bike",
+      "name": "SZ-Bike"
+    }
+  },
   "amenity/bicycle_rental|Swapfiets": {
-    "countryCodes": ["be", "de", "dk", "nl"],
+    "locationSet": {
+      "include": ["be", "de", "dk", "nl"]
+    },
     "tags": {
       "amenity": "bicycle_rental",
       "brand": "Swapfiets",
@@ -44,13 +99,62 @@
       "name": "Swapfiets"
     }
   },
+  "amenity/bicycle_rental|baybike": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "baybike",
+      "brand:en": "baybike",
+      "brand:ja": "ベイバイク",
+      "brand:wikidata": "Q91499435",
+      "fee": "yes",
+      "name": "baybike",
+      "name:en": "baybike",
+      "name:ja": "ベイバイク",
+      "official_name": "横浜コミュニティサイクル",
+      "official_name:en": "Yokohama Bike Share",
+      "official_name:ja": "横浜コミュニティサイクル"
+    }
+  },
   "amenity/bicycle_rental|metropolradruhr": {
-    "countryCodes": ["de"],
+    "locationSet": {"include": ["de"]},
     "tags": {
       "amenity": "bicycle_rental",
       "brand": "metropolradruhr",
       "brand:wikidata": "Q62104274",
       "name": "metropolradruhr"
+    }
+  },
+  "amenity/bicycle_rental|ちよくる": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "ちよくる",
+      "brand:en": "Chiyocle",
+      "brand:ja": "ちよくる",
+      "brand:wikidata": "Q91498542",
+      "fee": "yes",
+      "name": "ちよくる",
+      "name:en": "Chiyocle",
+      "name:ja": "ちよくる",
+      "official_name": "千代田区コミュニティサイクル",
+      "official_name:en": "Chiyoda City Bike Share",
+      "official_name:ja": "千代田区コミュニティサイクル"
+    }
+  },
+  "amenity/bicycle_rental|ドコモ・バイクシェア": {
+    "locationSet": {"include": ["jp"]},
+    "tags": {
+      "amenity": "bicycle_rental",
+      "brand": "ドコモ・バイクシェア",
+      "brand:en": "Docomo Bike Share",
+      "brand:ja": "ドコモ・バイクシェア",
+      "brand:wikidata": "Q55533296",
+      "brand:wikipedia": "ja:ドコモ・バイクシェア",
+      "fee": "yes",
+      "name": "ドコモ・バイクシェア",
+      "name:en": "Docomo Bike Share",
+      "name:ja": "ドコモ・バイクシェア"
     }
   }
 }

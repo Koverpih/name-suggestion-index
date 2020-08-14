@@ -1,8 +1,11 @@
 {
-  "shop/seafood|Рыба": {
+  "shop/seafood|Океан": {
+    "locationSet": {
+      "include": ["by", "kz", "ru", "ua"]
+    },
     "tags": {
-      "brand": "Рыба",
-      "name": "Рыба",
+      "brand": "Океан",
+      "name": "Океан",
       "shop": "seafood"
     }
   }

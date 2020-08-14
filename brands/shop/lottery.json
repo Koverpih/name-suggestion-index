@@ -1,6 +1,6 @@
 {
   "shop/lottery|Loterías y Apuestas del Estado": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "matchNames": [
       "apuestas del estado",
       "lotería del estado",
@@ -15,7 +15,7 @@
     }
   },
   "shop/lottery|ONCE": {
-    "countryCodes": ["es"],
+    "locationSet": {"include": ["es"]},
     "nomatch": ["amenity/social_facility|ONCE"],
     "tags": {
       "brand": "ONCE",
@@ -23,6 +23,29 @@
       "brand:wikipedia": "es:Organización Nacional de Ciegos Españoles",
       "name": "ONCE",
       "official_name": "Organización Nacional de Ciegos Españoles",
+      "shop": "lottery"
+    }
+  },
+  "shop/lottery|宝くじ": {
+    "locationSet": {"include": ["jp"]},
+    "matchNames": [
+      "lotoロト",
+      "lottery of japan",
+      "takarakuji",
+      "‎japan loto"
+    ],
+    "tags": {
+      "brand": "宝くじ",
+      "brand:en": "Takarakuji",
+      "brand:ja": "宝くじ",
+      "brand:wikidata": "Q87824893",
+      "brand:wikipedia": "ja:宝くじ",
+      "name": "宝くじ",
+      "name:en": "Takarakuji",
+      "name:ja": "宝くじ",
+      "official_name": "全国自治宝くじ",
+      "official_name:en": "National Autonomous Lottery",
+      "official_name:ja": "全国自治宝くじ",
       "shop": "lottery"
     }
   }

@@ -1,5 +1,6 @@
 {
   "amenity/car_rental|Alamo": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "Alamo",
@@ -9,6 +10,7 @@
     }
   },
   "amenity/car_rental|Avis": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["avis car rental"],
     "tags": {
       "amenity": "car_rental",
@@ -19,6 +21,7 @@
     }
   },
   "amenity/car_rental|Buchbinder": {
+    "locationSet": {"include": ["at", "de"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "Buchbinder",
@@ -26,6 +29,7 @@
     }
   },
   "amenity/car_rental|Budget": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["budget car rental"],
     "tags": {
       "amenity": "car_rental",
@@ -37,7 +41,7 @@
     }
   },
   "amenity/car_rental|Dollar": {
-    "countryCodes": ["us"],
+    "locationSet": {"include": ["us"]},
     "nomatch": [
       "amenity/bank|Dollar Bank",
       "shop/variety_store|Dollar General",
@@ -55,6 +59,7 @@
     }
   },
   "amenity/car_rental|Enterprise": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["enterprise car rental"],
     "tags": {
       "amenity": "car_rental",
@@ -66,6 +71,7 @@
     }
   },
   "amenity/car_rental|Europcar": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "Europcar",
@@ -75,6 +81,7 @@
     }
   },
   "amenity/car_rental|Hertz": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["hertz car rental"],
     "tags": {
       "amenity": "car_rental",
@@ -85,6 +92,7 @@
     }
   },
   "amenity/car_rental|Localiza": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "Localiza",
@@ -94,7 +102,9 @@
     }
   },
   "amenity/car_rental|National": {
-    "countryCodes": ["ca", "gb", "us"],
+    "locationSet": {
+      "include": ["ca", "gb", "us"]
+    },
     "nomatch": ["amenity/bank|National Bank"],
     "tags": {
       "amenity": "car_rental",
@@ -106,6 +116,7 @@
     }
   },
   "amenity/car_rental|Sixt": {
+    "locationSet": {"include": ["001"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "Sixt",
@@ -115,6 +126,7 @@
     }
   },
   "amenity/car_rental|Thrifty": {
+    "locationSet": {"include": ["001"]},
     "matchNames": ["thrifty car rental"],
     "tags": {
       "amenity": "car_rental",
@@ -125,7 +137,7 @@
     }
   },
   "amenity/car_rental|オリックスレンタカー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "オリックスレンタカー",
@@ -139,7 +151,7 @@
     }
   },
   "amenity/car_rental|トヨタレンタカー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "matchNames": ["トヨタレンタリース"],
     "tags": {
       "amenity": "car_rental",
@@ -154,7 +166,7 @@
     }
   },
   "amenity/car_rental|ニッポンレンタカー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "ニッポンレンタカー",
@@ -168,7 +180,7 @@
     }
   },
   "amenity/car_rental|日産レンタカー": {
-    "countryCodes": ["jp"],
+    "locationSet": {"include": ["jp"]},
     "tags": {
       "amenity": "car_rental",
       "brand": "日産レンタカー",

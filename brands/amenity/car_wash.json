@@ -1,0 +1,20 @@
+{
+  "amenity/car_wash|IMO Car Wash": {
+    "locationSet": {"include": ["001"]},
+    "tags": {
+      "amenity": "car_wash",
+      "brand": "IMO Car Wash",
+      "brand:wikidata": "Q81802686",
+      "name": "IMO Car Wash"
+    }
+  },
+  "amenity/car_wash|Waves": {
+    "locationSet": {"include": ["gb"]},
+    "tags": {
+      "amenity": "car_wash",
+      "brand": "Waves",
+      "brand:wikidata": "Q81802122",
+      "name": "Waves"
+    }
+  }
+}
